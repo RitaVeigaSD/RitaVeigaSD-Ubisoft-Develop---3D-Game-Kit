@@ -1,0 +1,18 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	436743010	Character			\Default Work Unit\Master Audio Bus\Character	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	1697398818	CaveReverb			\Default Work Unit\Master Audio Bus\CaveReverb	
+	2554324758	DirtReverb			\Default Work Unit\Master Audio Bus\DirtReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

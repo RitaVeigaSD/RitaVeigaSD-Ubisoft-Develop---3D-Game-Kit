@@ -13,13 +13,18 @@
 public class AkAuxSendValue : global::System.IDisposable {
   private global::System.IntPtr swigCPtr;
   protected bool swigCMemOwn;
+    public float gameObjAuxSendValues;
 
-  internal AkAuxSendValue(global::System.IntPtr cPtr, bool cMemoryOwn) {
+    internal AkAuxSendValue(global::System.IntPtr cPtr, bool cMemoryOwn) {
     swigCMemOwn = cMemoryOwn;
     swigCPtr = cPtr;
   }
 
-  internal static global::System.IntPtr getCPtr(AkAuxSendValue obj) {
+    public AkAuxSendValue()
+    {
+    }
+
+    internal static global::System.IntPtr getCPtr(AkAuxSendValue obj) {
     return (obj == null) ? global::System.IntPtr.Zero : obj.swigCPtr;
   }
 

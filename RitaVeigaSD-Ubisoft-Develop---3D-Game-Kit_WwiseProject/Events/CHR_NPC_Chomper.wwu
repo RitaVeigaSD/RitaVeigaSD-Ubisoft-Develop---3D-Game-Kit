@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03F65287-9693-4FE0-B85E-7D81FB8E5B4E}" SchemaVersion="123" RootDocumentID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" ParentDocumentID="{C49440AC-0052-4EA9-99BB-94A149A2157A}">
+	<Events>
+		<WorkUnit Name="CHR_NPC_Chomper" ID="{03F65287-9693-4FE0-B85E-7D81FB8E5B4E}" OwnerID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_CHR_NPC_Chomper_Attack" ID="{ABA9AEC6-7235-4013-BCD8-C91E27F22D0A}">
+					<ChildrenList>
+						<Action Name="" ID="{4829D9B8-3AAE-48F8-A73B-E9B87E9EFCCD}" ShortID="728776002">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Chomper_Attack" ID="{99D9CE28-EFB2-4EA7-94E1-74E130DE8ED9}" WorkUnitID="{A7305B9F-9C02-41BA-AED4-1347E5FC50C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

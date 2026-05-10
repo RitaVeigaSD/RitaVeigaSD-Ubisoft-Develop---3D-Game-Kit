@@ -1258,5 +1258,11 @@ public partial class AkUnitySoundEngine
 }
 
 [System.Obsolete(AkUnitySoundEngine.Ak_Sound_Engine_Rename_2024_1_0)]
-public class AkSoundEngine : AkUnitySoundEngine {}
+public class AkSoundEngine : AkUnitySoundEngine
+{
+    public static void SetGameObjectAuxSendValues(UnityEngine.GameObject gameObject, AkAuxSendValue[] sends, int v)
+    {
+        throw new System.NotImplementedException();
+    }
+}
 #endif // #if !(UNITY_QNX) // Disable under unsupported platforms.

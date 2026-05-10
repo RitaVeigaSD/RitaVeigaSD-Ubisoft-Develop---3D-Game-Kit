@@ -1,6 +1,574 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Character" ID="{32498BC0-584D-4D59-BD3F-2A5553EB0015}" PersistMode="Reference"/>
+				<WorkUnit Name="AMBIENCES" ID="{475FAE43-DBC3-44F4-B423-574A8758979E}" PersistMode="Reference"/>
+				<WorkUnit Name="CHR_NPC_Chomper" ID="{03F65287-9693-4FE0-B85E-7D81FB8E5B4E}" PersistMode="Reference"/>
+				<Event Name="Play_CHR_NPC_Chomper_Ft_Dirt" ID="{CD1BE648-10AF-436E-9C14-8C9E41A0EC33}">
+					<ChildrenList>
+						<Action Name="" ID="{0B7B1EF0-D739-4228-B4CF-FC44FD3EEC19}" ShortID="236308840">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Chomper_Ft_Dirt" ID="{C6A0CAB9-9AA6-426F-B4B4-BF621BC6E371}" WorkUnitID="{A7305B9F-9C02-41BA-AED4-1347E5FC50C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Chomper_Idle" ID="{AAEF0081-3BF7-4991-918A-F36FFCA6E68F}">
+					<ChildrenList>
+						<Action Name="" ID="{84EFD9E5-A402-41AE-A00F-923752AD6EEB}" ShortID="768047819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Chomper_Idle" ID="{C02E848B-18EE-49D1-ADA3-D33C19056B7E}" WorkUnitID="{A7305B9F-9C02-41BA-AED4-1347E5FC50C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_CHR_NPC_Chomper_Idle" ID="{1BE732CD-434F-4BC7-9710-2EAC4E90BC50}">
+					<ChildrenList>
+						<Action Name="" ID="{5A1703EC-4AF5-4E50-8B75-122B6B879E0E}" ShortID="828251192">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Chomper_Idle" ID="{C02E848B-18EE-49D1-ADA3-D33C19056B7E}" WorkUnitID="{A7305B9F-9C02-41BA-AED4-1347E5FC50C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Chomper_Spotted" ID="{BD73E51D-7687-43A8-BD03-4891BD4AB923}">
+					<ChildrenList>
+						<Action Name="" ID="{A3FDE742-26FF-47DC-BCB9-15BD68A99F9F}" ShortID="518839184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Chomper_Spotted" ID="{FD847077-8BCC-4387-9A2D-CABC52CD7D56}" WorkUnitID="{A7305B9F-9C02-41BA-AED4-1347E5FC50C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_CHR_NPC_Chomper_Spotted" ID="{B1E7542F-D525-4492-83C6-40A87DD201AD}">
+					<ChildrenList>
+						<Action Name="" ID="{ED6C52D8-C443-41DC-8BEA-24FD9131F38D}" ShortID="67110933">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Chomper_Spotted" ID="{FD847077-8BCC-4387-9A2D-CABC52CD7D56}" WorkUnitID="{A7305B9F-9C02-41BA-AED4-1347E5FC50C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GPE_WEA_Pedestal_LP" ID="{EBC76146-1292-49CC-A5C8-4CAB61B78C40}">
+					<ChildrenList>
+						<Action Name="" ID="{7D9077B6-1E69-4B2F-A412-82F72E3FA65A}" ShortID="573650656">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_WEA_Pedestal_LP" ID="{DC9111CD-8587-48A2-AD1B-5FCFE73B3410}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GPE_WEA_PickUp" ID="{6645D4A5-2EF9-43D9-BBF7-F01D889C9D25}">
+					<ChildrenList>
+						<Action Name="" ID="{B49424FD-2D37-4D25-869D-A759D6A9485E}" ShortID="727723559">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_WEA_PickUp" ID="{23D52599-41E3-46B3-85B4-CA4AD69D2F41}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GPE_WEA_Pedestal_LP" ID="{34591D58-038D-4A2D-A973-33FCF8629237}">
+					<ChildrenList>
+						<Action Name="" ID="{6CA6EB1F-C390-4BEA-B5E4-79C3CDC182B3}" ShortID="239000783">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_WEA_Pedestal_LP" ID="{DC9111CD-8587-48A2-AD1B-5FCFE73B3410}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Chomper_Death" ID="{9E8616D9-407E-46D2-A9F8-AC412579CFB6}">
+					<ChildrenList>
+						<Action Name="" ID="{C95C8033-4443-4E72-B538-0EC22E4F7237}" ShortID="277814053">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Chomper_Death" ID="{ACDCDB23-686E-405F-A031-97C9D7BC3CBF}" WorkUnitID="{A7305B9F-9C02-41BA-AED4-1347E5FC50C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_MC_Ft_Land_Grass" ID="{EBEDD571-D9F6-45BF-B93C-BB47E9665C96}">
+					<ChildrenList>
+						<Action Name="" ID="{4185B3F2-C6AC-4ED0-830E-52ED369624EA}" ShortID="109776016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_MC_Ft_Land_Grass" ID="{107ADF7E-3499-47DB-8E96-5068087CD0C9}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_MC_Ft_Jump_Generic" ID="{B0219147-8AD5-4CFC-8F47-5E7524E00417}">
+					<ChildrenList>
+						<Action Name="" ID="{D250D18B-8DEA-488D-AEAC-A09C6BAFEC5D}" ShortID="1046666038">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_MC_Ft_Jump_Generic" ID="{1B1F57A4-11CA-4B75-8843-4F8AE20966D8}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_MC_Ft_Roll_Grass" ID="{4FEC9B4F-FF61-4DD0-834D-1BD35C75F2B7}">
+					<ChildrenList>
+						<Action Name="" ID="{E17D5779-4ED7-424E-86E2-53683FCA84E9}" ShortID="6799168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_MC_Ft_Roll_Grass" ID="{26E84207-08A0-474E-AA49-E365790C3907}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WEA_Staff_Woosh" ID="{501CF2E4-90E8-4A1A-8280-90B6DA6804C5}">
+					<ChildrenList>
+						<Action Name="" ID="{90FB170F-97EA-4BD8-9FCC-AA16260F9B01}" ShortID="488666541">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WEA_Staff_Woosh" ID="{76BDC66D-C134-48FF-B5F6-095A4E940BF8}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WEA_Staff_Hit_Stone" ID="{0545042C-AEE5-4A10-812E-D2D4E354501F}">
+					<ChildrenList>
+						<Action Name="" ID="{36EFC69E-D5A4-41F8-A764-99130F6B3551}" ShortID="513294224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WEA_Staff_Hit_Stone" ID="{69102478-B789-46AD-840B-B2B7B9F49A67}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_pressure_pad_test" ID="{F6934D93-A7FD-4B17-994C-83AABAD295C1}">
+					<ChildrenList>
+						<Action Name="" ID="{6CCD61C6-82F7-42D0-B237-632D8BA22A23}" ShortID="605516131">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pressure pad test" ID="{5B27FFC8-53A5-4766-B728-B5288FB62339}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GPE_Door_Sliding_01" ID="{6C08E406-4449-441C-9E51-0A2677C89CBB}">
+					<ChildrenList>
+						<Action Name="" ID="{8EC69753-B238-49AB-9A8F-D55069B1FC76}" ShortID="86421632">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_Door_Sliding_01" ID="{543D5AFA-0CD1-4A36-80D3-30B7A301CABF}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WEA_Staff_Hit_Leaves" ID="{A3651A10-9C5E-4524-ADC1-A8A14ACF6963}">
+					<ChildrenList>
+						<Action Name="" ID="{E876B201-35FA-42D7-BE8A-660D0E58C3E1}" ShortID="519532520">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WEA_Staff_Hit_Leaves" ID="{A2897BDD-C4E1-452C-81DE-6D04BDF920D4}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GPE_Chest_Lp" ID="{5F2D53C0-16C1-4867-8111-0A8CAFFAB412}">
+					<ChildrenList>
+						<Action Name="" ID="{5C7BCE67-978E-4B03-95D6-9F693018A9F8}" ShortID="1039912034">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_Chest_Lp" ID="{64FB911C-C671-4042-8B7E-4155838333D8}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GPE_Chest_Lp" ID="{A930304B-470F-4232-89C2-1E3ECC1EE5FE}">
+					<ChildrenList>
+						<Action Name="" ID="{939516B1-AED4-427B-B371-96242AD83C4C}" ShortID="613611263">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_Chest_Lp" ID="{64FB911C-C671-4042-8B7E-4155838333D8}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GPE_Chest_Open" ID="{DF5A8B59-E905-44A0-8299-9363FDD2135B}">
+					<ChildrenList>
+						<Action Name="" ID="{53932AD2-127D-455D-901F-1B62EACF5F23}" ShortID="852517825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_Chest_Open" ID="{1B397F71-6309-4A5C-97CE-82C4A65F160B}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GPE_Crystal_Activated" ID="{E935C037-D3D3-4682-B14E-BDD9A4D516E4}">
+					<ChildrenList>
+						<Action Name="" ID="{F2B06EA2-202F-4DD8-8B8F-8792DFACD810}" ShortID="336974220">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_Crystal_Activated" ID="{420B4B1D-13C7-4AAE-913E-04121F8BF16E}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{1F2E6233-A338-4B77-8420-4CBCC5018B49}">
+					<ChildrenList>
+						<Action Name="" ID="{C7280393-93BA-4009-B8E7-DD3297847856}" ShortID="161774627">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{4DB1A873-CF2E-4D23-9485-C8067BE75AED}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_MC_Ft__Run_Stone" ID="{247B95F4-7C7D-40E0-8044-683B764F9E51}">
+					<ChildrenList>
+						<Action Name="" ID="{D50AB202-1951-4760-9BDF-7D27ECA5D0C1}" ShortID="664088108">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_MC_Ft_ Run_Stone" ID="{730DC086-C51B-4D9C-8A1A-62B246654666}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Golem_LR_Attack_01" ID="{4C8DD1DA-787D-419B-8E12-67966FA61F37}">
+					<ChildrenList>
+						<Action Name="" ID="{AA096933-7F23-492F-A233-1686396B0ED8}" ShortID="1038718117">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Golem_LR_Attack_01" ID="{BD6DE895-A8A6-4783-A6AF-36845280427D}" WorkUnitID="{9EF0909F-366B-494A-B873-B49FEE4D9B4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_Lvl1_Stream" ID="{BCF69528-AAE5-47D2-8361-7663DB3BBE41}">
+					<ChildrenList>
+						<Action Name="" ID="{D6F55AFC-C0E2-49DF-AAA6-38400CE7379D}" ShortID="491589948">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Lvl1_Stream" ID="{21DA3ED8-547F-44A1-8D83-4DBF0743E1D2}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_Lvl1_Stream" ID="{6CB28461-4D35-4286-B300-90C68A65EA63}">
+					<ChildrenList>
+						<Action Name="" ID="{E086C385-F10C-44BF-9CB1-31E9F83C7D43}" ShortID="151829105">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Lvl1_Stream" ID="{21DA3ED8-547F-44A1-8D83-4DBF0743E1D2}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_MC_Damage" ID="{5A4214E6-0D9E-43D9-A7A9-972FF06F0926}">
+					<ChildrenList>
+						<Action Name="" ID="{4C370AA7-91F8-4C56-8DAF-9BBD505EA379}" ShortID="506361349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_MC_Damage" ID="{039DD9B3-A534-4AFE-9AFE-023B8DBB3548}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_LEVEL1" ID="{BE1D2DDE-03AD-42BE-B224-540154C53DC6}">
+					<ChildrenList>
+						<Action Name="" ID="{D1B93C4F-7C26-4F98-B249-9FB31B064B0F}" ShortID="162484628">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_LEVEL1" ID="{FDBAE28E-2937-4E5C-8D35-560CBA20B740}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_Lvl1_Layer1" ID="{803B3D35-4851-4F70-8559-F4B6002D6DD9}">
+					<ChildrenList>
+						<Action Name="" ID="{CCDE87C2-40DD-4AE6-BEA4-00AC95E5B9A3}" ShortID="580256857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Lvl1_Layer1" ID="{899EAF72-A4DA-419D-A8C8-9E630B638651}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_CREATURES" ID="{F080C0F3-1CD7-4BB7-859A-ED13EB01E7E5}">
+					<ChildrenList>
+						<Action Name="" ID="{FDFFDDDA-63D0-4DE4-B02C-C2CB9F656B36}" ShortID="767105122">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Frogs" ID="{DE6270B1-C24A-4F24-BB96-D271F70AED7D}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B6237A65-3633-4AE6-82A7-ED0CD6BC498A}" ShortID="449560297">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Insects" ID="{0DEB8AD1-8305-4EC6-86E7-135AA9A48758}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{325972A7-3D1D-41E2-84C0-49FBDF8AA3E7}" ShortID="645739259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ravens" ID="{D638560B-3983-4C92-A077-786F101C960B}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C73726CD-CA8A-4D9A-B4A4-06A014E84BDA}" ShortID="146792011">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Hover" ID="{D509C16A-2D80-42DB-A12D-6EED96DBAB59}">
+					<ChildrenList>
+						<Action Name="" ID="{B5D2EA8B-639D-4289-B660-EF51E89D4C96}" ShortID="162153460">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Hover" ID="{C1920707-F314-44F5-8C1E-F4AF6F664ED2}" WorkUnitID="{1A0A6EF1-3A23-49FB-829A-2539F160C39E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Pause" ID="{7BD694E2-81E7-4EA6-81EC-7FAF3FB5E7D8}">
+					<ChildrenList>
+						<Action Name="" ID="{5AA57145-54FD-4D5C-B3B5-84DB003E0E96}" ShortID="977257032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Pause" ID="{92D5CF0A-292C-4ECE-AB1A-D885905C60D2}" WorkUnitID="{1A0A6EF1-3A23-49FB-829A-2539F160C39E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Start_Validate" ID="{4EE16697-7DBA-4118-89CC-D092DEB25C7F}">
+					<ChildrenList>
+						<Action Name="" ID="{821223CF-3751-4FC8-BAFE-78A6B0BD4443}" ShortID="535003174">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Start_Validate" ID="{CCEE8150-5189-4AAD-A4C6-86253AD00ADD}" WorkUnitID="{1A0A6EF1-3A23-49FB-829A-2539F160C39E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Validate" ID="{D02A741F-8EDE-4AB7-8488-563315504F45}">
+					<ChildrenList>
+						<Action Name="" ID="{E14DC6BA-89F9-421D-ACE9-68C010F5408F}" ShortID="446174430">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Validate" ID="{2BC3F732-4628-4F42-B8D6-BDF6BAF67C33}" WorkUnitID="{1A0A6EF1-3A23-49FB-829A-2539F160C39E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Generic_Slider_01" ID="{2239A723-839F-489E-97B8-C8EB369C98C3}">
+					<ChildrenList>
+						<Action Name="" ID="{B450B213-EF39-4A49-9C29-A406DCE789F0}" ShortID="920554802">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Generic_Slider_01" ID="{666FDD8F-68FC-4CBC-A4B7-1BF112D1D2EC}" WorkUnitID="{1A0A6EF1-3A23-49FB-829A-2539F160C39E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_UI_Menu_Generic_Slider_01" ID="{C5F537C5-B737-4F83-9491-6C969E2E9B65}">
+					<ChildrenList>
+						<Action Name="" ID="{30BCA062-F9D3-41D6-B75F-8D4DDDEC5220}" ShortID="624118143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Generic_Slider_01" ID="{666FDD8F-68FC-4CBC-A4B7-1BF112D1D2EC}" WorkUnitID="{1A0A6EF1-3A23-49FB-829A-2539F160C39E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_RFX_WLD_Fish" ID="{339F48BB-E642-4CF3-973B-B8FB999887F6}">
+					<ChildrenList>
+						<Action Name="" ID="{F3018381-AB89-4A98-B331-FE04EC80932C}" ShortID="894045510">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_RFX_WLD_Fish" ID="{2A8CF732-F304-4448-9B7F-94A903654B89}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chr_Land" ID="{B2D20B7A-6BCB-448B-8A40-F88D35F66D43}">
+					<ChildrenList>
+						<Action Name="" ID="{CBC9B580-DC48-45A0-8055-E07EE584520F}" ShortID="212362042">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chr_Land" ID="{9FF47C4B-E4F7-4552-BB42-00A8F6A8AB8E}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_MC_Death" ID="{A3BA986B-0F1B-47BF-8C73-315CCCF554AC}">
+					<ChildrenList>
+						<Action Name="" ID="{362DA9C8-4C64-49D1-806C-2D968B137368}" ShortID="209226707">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_MC_Death" ID="{6E2AF157-100F-496A-9A16-D13E4AEC5BD7}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Golem_Ft_Stone" ID="{7A66A155-2888-43C0-9EC9-46459E3C756E}">
+					<ChildrenList>
+						<Action Name="" ID="{425A5297-6247-4A03-903A-87AFC7439C8A}" ShortID="368364488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Golem_Ft_Stone" ID="{D7229AC3-D3C1-4EAD-A183-903762D20EDD}" WorkUnitID="{9EF0909F-366B-494A-B873-B49FEE4D9B4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Golem_Hit" ID="{D947E32F-EA11-4E25-9EE7-54464B933568}">
+					<ChildrenList>
+						<Action Name="" ID="{18B4AC1B-B47E-4F82-91FA-990166D25125}" ShortID="767065971">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Golem_Hit" ID="{23612CE3-2787-47A0-8F42-2AEC105EC32C}" WorkUnitID="{9EF0909F-366B-494A-B873-B49FEE4D9B4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Golem_melee_Attack_01" ID="{74E41CDA-8280-45DF-9FEA-C6207516FE75}">
+					<ChildrenList>
+						<Action Name="" ID="{959519E3-9EEA-4A92-907C-8293FA2E6F84}" ShortID="891975119">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Golem_melee_Attack_01" ID="{71C57DF0-9DB1-4DA6-A4B9-C7CE7C382DE8}" WorkUnitID="{9EF0909F-366B-494A-B873-B49FEE4D9B4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Gole_RangeAttack2" ID="{622BC135-7438-4825-A1EC-B42ACD62F518}">
+					<ChildrenList>
+						<Action Name="" ID="{5441837D-D75C-4078-A4FB-484EC77EE3FE}" ShortID="850664655">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Gole_RangeAttack2" ID="{FBBC8E5F-846A-4F0C-AE97-FCF2543DA29F}" WorkUnitID="{9EF0909F-366B-494A-B873-B49FEE4D9B4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CHR_NPC_Golem_Death" ID="{B175894B-39F5-4217-8AE2-FCD6A6A8D1E7}">
+					<ChildrenList>
+						<Action Name="" ID="{49F57435-AC5B-441C-A357-0D0CAE3E50BB}" ShortID="458753975">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_NPC_Golem_Death" ID="{3A84AB39-BA2A-4BC2-B4C8-86412D59D519}" WorkUnitID="{9EF0909F-366B-494A-B873-B49FEE4D9B4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WEA_Staff_Hit_Chomper" ID="{3967AAD4-3D3B-4536-8901-21B292FA8225}">
+					<ChildrenList>
+						<Action Name="" ID="{E6318743-BF11-405A-A2D2-BFEADF806549}" ShortID="136196433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WEA_Staff_Hit_Chomper" ID="{A9BE62FA-F8E0-4BC6-A3F3-6B09675962CD}" WorkUnitID="{A7305B9F-9C02-41BA-AED4-1347E5FC50C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GPE_Door_Sliding_01" ID="{7D6023DF-743E-41DD-AF3C-8E120FACEFD6}">
+					<ChildrenList>
+						<Action Name="" ID="{48DFD0AD-A229-4B74-8E35-B6C0DB0865B5}" ShortID="610551373">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GPE_Door_Sliding_01" ID="{543D5AFA-0CD1-4A36-80D3-30B7A301CABF}" WorkUnitID="{EFB6C1CF-6D1A-4902-B5C8-A60AE009F72F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Game_Parameter_SliderPitch" ID="{5AA305DA-3477-4E19-8C0B-C80A36819F87}">
+					<ChildrenList>
+						<Action Name="" ID="{E1A7397F-B047-4F8E-8CB8-965AF789964E}" ShortID="529411176">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SliderPitch" ID="{F0F88339-5227-4E19-BC69-38DD758FDA95}" WorkUnitID="{0E8D67CA-C4C3-478D-8288-8122F0812EB6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

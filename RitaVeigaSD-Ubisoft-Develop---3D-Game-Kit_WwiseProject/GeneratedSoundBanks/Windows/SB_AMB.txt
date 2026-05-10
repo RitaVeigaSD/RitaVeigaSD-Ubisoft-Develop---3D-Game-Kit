@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	151537865	Play_AMB_Lvl1_Layer1			\Default Work Unit\Play_AMB_Lvl1_Layer1	
+	298632860	Play_AMB_Lvl1_Stream_LP			\Default Work Unit\AMBIENCES\Play_AMB_Lvl1_Stream_LP	
+	539297341	Play_AMB_Lvl1_Stream			\Default Work Unit\Play_AMB_Lvl1_Stream	
+	1855356818	Play_AMB_LEVEL1			\Default Work Unit\Play_AMB_LEVEL1	
+	3709250870	Stop_AMB_Lvl1_Stream_LP			\Default Work Unit\AMBIENCES\Stop_AMB_Lvl1_Stream_LP	
+	3889595239	Stop_AMB_Lvl1_Stream			\Default Work Unit\Stop_AMB_Lvl1_Stream	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	30989046	AMB_Lvl1_Frog_5	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\92\{92216B8F-9096-BAFF-6A02-3A83DF3D5032}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_5		528096
+	97986060	AMB_Lvl1_Frog_10	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\C4\{C415D823-276E-824D-D631-5DE8EEA29678}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_10		496268
+	303880928	AMB_Lvl1_Raven_1	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\56\{56F92511-7B40-6DE4-4F6D-8BB28828D9D6}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Ravens\AMB_Lvl1_Raven_1		384096
+	381643761	AMB_Lvl1_Frog_8	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\D6\{D68EAA43-816D-9715-1463-1305D1DD1566}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_8		328068
+	395453465	AMB_Lvl1_Frog_1	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\08\{087F9311-3854-FCA9-2006-D627185A4C76}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_1		1200096
+	438835133	AMB_Lvl1_Frog_6	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\B1\{B1FDF7CF-B52E-ADDC-6AFA-1070B186DA2E}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_6		399268
+	517954256	AMB_Lvl1_Frog_2	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\D3\{D30BF639-B708-B71F-B225-F529FB53234B}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_2		528096
+	562281307	AMB_Lvl1_Frog_7	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\7F\{7F5BD664-9D96-E544-AC99-FC687F03C050}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_7		209368
+	614392680	AMB_Lvl1_Frog_11	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\BF\{BF8F659D-C719-97B7-E752-7357A5EA69AC}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_11		176736
+	625917274	AMB_Lvl1_Frog_4	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\A1\{A1AEF38B-2B3B-0AD5-668F-CD18AA9990B2}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_4		384096
+	672414206	AMB_Lvl1_Raven_3	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\1F\{1F3ACE47-AE12-E807-03BE-C9E38FEB7E5C}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Ravens\AMB_Lvl1_Raven_3		456096
+	708900143	AMB_Lvl1_Cicada_1	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\4E\{4EF0C955-22A2-FFA0-2458-550CFF281B1D}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Insects\AMB_Lvl1_Cicada_1		5376096
+	711436382	AMB_Lvl1_Insect_1	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\68\{68715548-8931-DECD-588E-3022E207C3E9}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Insects\AMB_Lvl1_Insect_1		912096
+	731387328	AMB_Lvl1_Raven_2	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\3A\{3A8E43E9-500D-98B4-32F4-69DDCBDD1723}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Ravens\AMB_Lvl1_Raven_2		208784
+	764143687	AMB_Lvl1_Frog_3	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\36\{3615BE7E-10FC-1235-BE03-4E6AD8A520C4}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_3		480096
+	810365088	AMB_Lvl1_Insect_2	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\24\{24CF5D5F-4ACD-1486-FBDC-13731CDD3F76}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Insects\AMB_Lvl1_Insect_2		1106768
+	907801509	AMB_Lvl1_Raven_4	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\08\{0813CCD8-054B-9C3E-3036-EB3C97FF840E}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Ravens\AMB_Lvl1_Raven_4		419616
+	975830527	AMB_Lvl1_Cicada_2	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\04\{0412C635-7D9E-9630-37CE-911F1255C38C}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Insects\AMB_Lvl1_Cicada_2		6750196
+	1004718862	AMB_Lvl1_Frog_9	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\4D\{4D460599-45EF-1A54-0CA6-08D2FB25EE8E}.wem		\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\Frogs\AMB_Lvl1_Frog_9		262868
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	159709195	AMB_Lvl1_Stream	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\44\{44A0EF42-AFD5-C975-918E-1EABCE9954A6}.wem	159709195.wem	\Actor-Mixer Hierarchy\AMB_Level1\AMB_Lvl1_Stream	
+	1057000814	AMB_Lvl1_Layer1	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\5A\{5A651BE0-2650-D16F-8C44-C9B55EEB8E43}.wem	1057000814.wem	\Actor-Mixer Hierarchy\AMB_Level1\AMB_LEVEL1\AMB_Lvl1_Layer1	
+

@@ -1,0 +1,376 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1551306167",
+    "Type": "User",
+    "GUID": "{6C810916-C7F0-489C-8FA4-693FAAF6645F}",
+    "Language": "SFX",
+    "Hash": "{D701181A-936A-FF4A-27F8-28D0688DF595}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
+    "ShortName": "UI",
+    "Path": "UI.bnk",
+    "Media": [
+     {
+      "Id": "15842964",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_06.wav",
+      "CachePath": "A8/{A8E1B0BD-A5C8-6D36-F6CA-CF16C6912E9D}.wem"
+     },
+     {
+      "Id": "118226625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_07.wav",
+      "CachePath": "1B/{1BD94695-20D7-CA6C-BA16-11D68D0845FB}.wem"
+     },
+     {
+      "Id": "126238701",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Start_Validated_01.wav",
+      "CachePath": "98/{98881BC2-F0F5-F21A-FBE1-D19D347DE99B}.wem"
+     },
+     {
+      "Id": "172657503",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Validate_03.wav",
+      "CachePath": "1F/{1FCAE8B3-4B7A-5C95-D77F-3EFBC07B8C1D}.wem"
+     },
+     {
+      "Id": "182161282",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_10.wav",
+      "CachePath": "B1/{B1A48973-7F43-33E7-0D38-29D3FC34DE58}.wem"
+     },
+     {
+      "Id": "234414951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Generic_Hover_02.wav",
+      "CachePath": "60/{60CABACE-6A16-88FE-EE51-4AD354C91C07}.wem"
+     },
+     {
+      "Id": "272488919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Validate_05.wav",
+      "CachePath": "6B/{6BDFB255-EACD-342D-83BD-65615FB4191B}.wem"
+     },
+     {
+      "Id": "323712651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Validate_01.wav",
+      "CachePath": "01/{01BBA4CA-926B-D828-4425-08474B4FD18B}.wem"
+     },
+     {
+      "Id": "342373371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_08.wav",
+      "CachePath": "EE/{EE382171-FFB6-7066-455A-77D544F3CBF0}.wem"
+     },
+     {
+      "Id": "384632935",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_04.wav",
+      "CachePath": "29/{2976E92F-CFBA-589C-270E-CB939AAF6059}.wem"
+     },
+     {
+      "Id": "446724676",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Generic_Hover_04.wav",
+      "CachePath": "4D/{4D1931D6-31CB-A4A9-48D5-C066E871E1C9}.wem"
+     },
+     {
+      "Id": "475502227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_05.wav",
+      "CachePath": "03/{038E7767-E176-4170-1921-08C8F91C1F2E}.wem"
+     },
+     {
+      "Id": "492337443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_02.wav",
+      "CachePath": "FA/{FABF2703-F3C2-BDDF-4128-6AF6F706EEA5}.wem"
+     },
+     {
+      "Id": "534010093",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Generic_Hover_01.wav",
+      "CachePath": "83/{83D75951-0388-3DC9-28A8-FE040C83E5BB}.wem"
+     },
+     {
+      "Id": "557536748",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_03.wav",
+      "CachePath": "1E/{1E453008-F2E7-C7C7-CFE6-7DBAF42ED2C1}.wem"
+     },
+     {
+      "Id": "561831917",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Generic_Hover_03.wav",
+      "CachePath": "A6/{A6439E88-9AE3-D915-586F-907E021C0A45}.wem"
+     },
+     {
+      "Id": "603926933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Validate_07.wav",
+      "CachePath": "88/{88CC4F0F-6E3F-A12E-A0C4-F1A5DF109CA0}.wem"
+     },
+     {
+      "Id": "642437570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Validate_06.wav",
+      "CachePath": "EC/{EC61FC4D-3CB4-3A0C-D8D2-57C1E74BB3B6}.wem"
+     },
+     {
+      "Id": "689164492",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Validate_02.wav",
+      "CachePath": "2F/{2FBF2999-B5F1-0686-23B7-3AD8176C85D4}.wem"
+     },
+     {
+      "Id": "728794781",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Generic_Slider_01.wav",
+      "CachePath": "73/{73D76FD1-9284-05CB-3D61-CA27A24F96BF}.wem"
+     },
+     {
+      "Id": "793027459",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Start_Validated_03.wav",
+      "CachePath": "7E/{7E45D1AF-04AB-D4AE-894A-092397F08425}.wem"
+     },
+     {
+      "Id": "850719966",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_09.wav",
+      "CachePath": "DD/{DDF31B5B-6962-5F07-6FD4-7A25025DBFB8}.wem"
+     },
+     {
+      "Id": "872516974",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_01.wav",
+      "CachePath": "5A/{5AE3DA56-4CF3-77CE-B25D-9E3E91627F8E}.wem"
+     },
+     {
+      "Id": "984537611",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Validate_04.wav",
+      "CachePath": "2D/{2D4408E1-96DD-2DAB-C31F-8896577D9523}.wem"
+     },
+     {
+      "Id": "1031155054",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Pause_11.wav",
+      "CachePath": "68/{68B1492C-A0CB-FD98-B340-CDE6B3983565}.wem"
+     },
+     {
+      "Id": "1060156524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Menu_Start_Validated_02.wav",
+      "CachePath": "65/{658FEA96-6D28-7884-8453-0844D4CA357A}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "779907018",
+      "Name": "Play_UI_Menu_Generic_Slider_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Generic_Slider_01",
+      "GUID": "{2239A723-839F-489E-97B8-C8EB369C98C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.810729",
+      "DurationMax": "5.810729",
+      "MediaRefs": [
+       {
+        "Id": "728794781"
+       }
+      ]
+     },
+     {
+      "Id": "2880217405",
+      "Name": "Play_UI_Menu_Hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Hover",
+      "GUID": "{D509C16A-2D80-42DB-A12D-6EED96DBAB59}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6601139",
+      "DurationMax": "0.6794567",
+      "MediaRefs": [
+       {
+        "Id": "234414951"
+       },
+       {
+        "Id": "446724676"
+       },
+       {
+        "Id": "534010093"
+       },
+       {
+        "Id": "561831917"
+       }
+      ]
+     },
+     {
+      "Id": "64353981",
+      "Name": "Play_UI_Menu_Pause",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Pause",
+      "GUID": "{7BD694E2-81E7-4EA6-81EC-7FAF3FB5E7D8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1921875",
+      "DurationMax": "0.37325",
+      "MediaRefs": [
+       {
+        "Id": "15842964"
+       },
+       {
+        "Id": "118226625"
+       },
+       {
+        "Id": "182161282"
+       },
+       {
+        "Id": "342373371"
+       },
+       {
+        "Id": "384632935"
+       },
+       {
+        "Id": "475502227"
+       },
+       {
+        "Id": "492337443"
+       },
+       {
+        "Id": "557536748"
+       },
+       {
+        "Id": "850719966"
+       },
+       {
+        "Id": "872516974"
+       },
+       {
+        "Id": "1031155054"
+       }
+      ]
+     },
+     {
+      "Id": "1264554120",
+      "Name": "Play_UI_Menu_Start_Validate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Start_Validate",
+      "GUID": "{4EE16697-7DBA-4118-89CC-D092DEB25C7F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13802083",
+      "DurationMax": "0.18177083",
+      "MediaRefs": [
+       {
+        "Id": "126238701"
+       },
+       {
+        "Id": "793027459"
+       },
+       {
+        "Id": "1060156524"
+       }
+      ]
+     },
+     {
+      "Id": "3880158019",
+      "Name": "Play_UI_Menu_Validate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Validate",
+      "GUID": "{D02A741F-8EDE-4AB7-8488-563315504F45}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.69133335",
+      "DurationMax": "0.69133335",
+      "MediaRefs": [
+       {
+        "Id": "172657503"
+       },
+       {
+        "Id": "272488919"
+       },
+       {
+        "Id": "323712651"
+       },
+       {
+        "Id": "603926933"
+       },
+       {
+        "Id": "642437570"
+       },
+       {
+        "Id": "689164492"
+       },
+       {
+        "Id": "984537611"
+       }
+      ]
+     },
+     {
+      "Id": "1650025720",
+      "Name": "Stop_UI_Menu_Generic_Slider_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_UI_Menu_Generic_Slider_01",
+      "GUID": "{C5F537C5-B737-4F83-9491-6C969E2E9B65}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B63457ED-49FA-AAEF-A295-B716093BCE0C}"
+ }
+}

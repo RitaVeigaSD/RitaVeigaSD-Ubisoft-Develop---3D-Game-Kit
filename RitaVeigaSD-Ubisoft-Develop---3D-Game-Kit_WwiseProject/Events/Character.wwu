@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32498BC0-584D-4D59-BD3F-2A5553EB0015}" SchemaVersion="123" RootDocumentID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" ParentDocumentID="{C49440AC-0052-4EA9-99BB-94A149A2157A}">
+	<Events>
+		<WorkUnit Name="Character" ID="{32498BC0-584D-4D59-BD3F-2A5553EB0015}" OwnerID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Footsteps_Dirt" ID="{ECD3D820-9637-4A31-8DE8-FA33405C82DB}">
+					<ChildrenList>
+						<Action Name="" ID="{F2BD657D-0E86-4BBF-9D7E-2F2DF82602B9}" ShortID="785632517">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHR_MC_Ft_Run_Grass" ID="{BEAC4B0D-5DE2-453F-8715-28AF1BA318CF}" WorkUnitID="{E7F2EF9D-9AF4-4152-AFC4-DE61C2DA6D1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

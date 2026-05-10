@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27be35b0ec254437c959c165aa7a14d0, type: 3}
+  m_Name: F080C0F3-1CD7-4BB7-859A-ED13EB01E7E5
+  m_EditorClassIdentifier: 
+  objectName: amb_CREATURES
+  id: 171715556
+  guid: F080C0F3-1CD7-4BB7-859A-ED13EB01E7E5
+  IsInUserDefinedSoundBank: 0

@@ -1,0 +1,319 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "925885567",
+    "Type": "User",
+    "GUID": "{DE81D682-E385-411C-A1F0-4846D7448EEA}",
+    "Language": "SFX",
+    "Hash": "{D4378BD0-B617-E640-4C50-2783E9B9EBF2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AMB",
+    "ShortName": "SB_AMB",
+    "Path": "SB_AMB.bnk",
+    "Media": [
+     {
+      "Id": "30989046",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_5.wav",
+      "CachePath": "92/{92216B8F-9096-BAFF-6A02-3A83DF3D5032}.wem"
+     },
+     {
+      "Id": "97986060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_10.wav",
+      "CachePath": "C4/{C415D823-276E-824D-D631-5DE8EEA29678}.wem"
+     },
+     {
+      "Id": "159709195",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "AMB\\AMB_Lvl1_Stream.wav",
+      "Path": "Media/159709195.wem",
+      "CachePath": "44/{44A0EF42-AFD5-C975-918E-1EABCE9954A6}.wem"
+     },
+     {
+      "Id": "303880928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Raven_1.wav",
+      "CachePath": "56/{56F92511-7B40-6DE4-4F6D-8BB28828D9D6}.wem"
+     },
+     {
+      "Id": "381643761",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_8.wav",
+      "CachePath": "D6/{D68EAA43-816D-9715-1463-1305D1DD1566}.wem"
+     },
+     {
+      "Id": "395453465",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_1.wav",
+      "CachePath": "08/{087F9311-3854-FCA9-2006-D627185A4C76}.wem"
+     },
+     {
+      "Id": "438835133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_6.wav",
+      "CachePath": "B1/{B1FDF7CF-B52E-ADDC-6AFA-1070B186DA2E}.wem"
+     },
+     {
+      "Id": "517954256",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_2.wav",
+      "CachePath": "D3/{D30BF639-B708-B71F-B225-F529FB53234B}.wem"
+     },
+     {
+      "Id": "562281307",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_7.wav",
+      "CachePath": "7F/{7F5BD664-9D96-E544-AC99-FC687F03C050}.wem"
+     },
+     {
+      "Id": "614392680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_11.wav",
+      "CachePath": "BF/{BF8F659D-C719-97B7-E752-7357A5EA69AC}.wem"
+     },
+     {
+      "Id": "625917274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_4.wav",
+      "CachePath": "A1/{A1AEF38B-2B3B-0AD5-668F-CD18AA9990B2}.wem"
+     },
+     {
+      "Id": "672414206",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Raven_3.wav",
+      "CachePath": "1F/{1F3ACE47-AE12-E807-03BE-C9E38FEB7E5C}.wem"
+     },
+     {
+      "Id": "708900143",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Cicada_1.wav",
+      "CachePath": "4E/{4EF0C955-22A2-FFA0-2458-550CFF281B1D}.wem"
+     },
+     {
+      "Id": "711436382",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Insect_1.wav",
+      "CachePath": "68/{68715548-8931-DECD-588E-3022E207C3E9}.wem"
+     },
+     {
+      "Id": "731387328",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Raven_2.wav",
+      "CachePath": "3A/{3A8E43E9-500D-98B4-32F4-69DDCBDD1723}.wem"
+     },
+     {
+      "Id": "764143687",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_3.wav",
+      "CachePath": "36/{3615BE7E-10FC-1235-BE03-4E6AD8A520C4}.wem"
+     },
+     {
+      "Id": "810365088",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Insect_2.wav",
+      "CachePath": "24/{24CF5D5F-4ACD-1486-FBDC-13731CDD3F76}.wem"
+     },
+     {
+      "Id": "907801509",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Raven_4.wav",
+      "CachePath": "08/{0813CCD8-054B-9C3E-3036-EB3C97FF840E}.wem"
+     },
+     {
+      "Id": "975830527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Cicada_2.wav",
+      "CachePath": "04/{0412C635-7D9E-9630-37CE-911F1255C38C}.wem"
+     },
+     {
+      "Id": "1004718862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Lvl1_Frog_9.wav",
+      "CachePath": "4D/{4D460599-45EF-1A54-0CA6-08D2FB25EE8E}.wem"
+     },
+     {
+      "Id": "1057000814",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "AMB\\AMB_Lvl1_Layer1.wav",
+      "Path": "Media/1057000814.wem",
+      "CachePath": "5A/{5A651BE0-2650-D16F-8C44-C9B55EEB8E43}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1855356818",
+      "Name": "Play_AMB_LEVEL1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_LEVEL1",
+      "GUID": "{BE1D2DDE-03AD-42BE-B224-540154C53DC6}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "30989046"
+       },
+       {
+        "Id": "97986060"
+       },
+       {
+        "Id": "303880928"
+       },
+       {
+        "Id": "381643761"
+       },
+       {
+        "Id": "395453465"
+       },
+       {
+        "Id": "438835133"
+       },
+       {
+        "Id": "517954256"
+       },
+       {
+        "Id": "562281307"
+       },
+       {
+        "Id": "614392680"
+       },
+       {
+        "Id": "625917274"
+       },
+       {
+        "Id": "672414206"
+       },
+       {
+        "Id": "708900143"
+       },
+       {
+        "Id": "711436382"
+       },
+       {
+        "Id": "731387328"
+       },
+       {
+        "Id": "764143687"
+       },
+       {
+        "Id": "810365088"
+       },
+       {
+        "Id": "907801509"
+       },
+       {
+        "Id": "975830527"
+       },
+       {
+        "Id": "1004718862"
+       },
+       {
+        "Id": "1057000814"
+       }
+      ]
+     },
+     {
+      "Id": "151537865",
+      "Name": "Play_AMB_Lvl1_Layer1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_Lvl1_Layer1",
+      "GUID": "{803B3D35-4851-4F70-8559-F4B6002D6DD9}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1057000814"
+       }
+      ]
+     },
+     {
+      "Id": "539297341",
+      "Name": "Play_AMB_Lvl1_Stream",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_Lvl1_Stream",
+      "GUID": "{BCF69528-AAE5-47D2-8361-7663DB3BBE41}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "159709195"
+       }
+      ]
+     },
+     {
+      "Id": "298632860",
+      "Name": "Play_AMB_Lvl1_Stream_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMBIENCES\\Play_AMB_Lvl1_Stream_LP",
+      "GUID": "{18952688-DE6E-49F6-BEF9-EDC642937FD3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3889595239",
+      "Name": "Stop_AMB_Lvl1_Stream",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_AMB_Lvl1_Stream",
+      "GUID": "{6CB28461-4D35-4286-B300-90C68A65EA63}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3709250870",
+      "Name": "Stop_AMB_Lvl1_Stream_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\AMBIENCES\\Stop_AMB_Lvl1_Stream_LP",
+      "GUID": "{7060AA2D-C42F-4ACD-A962-D1270A1B68F3}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{73F38156-AF06-AE39-47B4-2E2086DB0615}"
+ }
+}

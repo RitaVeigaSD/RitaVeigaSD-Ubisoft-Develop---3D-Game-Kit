@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: e46c2e28eccbd94a947d563db29f089b
     GuidInternal: 
-    m_lastTime: -8584319985068256271
+    m_lastTime: -8584319984557840202
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,8 +38,59 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 95bbd77a0bf8bc44a659c38c4b8b2390
     GuidInternal: 
-    m_lastTime: -8584319985068524939
+    m_lastTime: -8584232587987229967
     List:
+    - name: CaveReverb
+      guid: 4c9f2ae9183ddd4b839784e957c0b762
+      id: 1697398818
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 95bbd77a0bf8bc44a659c38c4b8b2390
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: CaveReverb
+        ObjectType: 1
+        guid: 4c9f2ae9183ddd4b839784e957c0b762
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/CaveReverb
+    - name: Character
+      guid: 83f16de4807e33458f2164685b0602ed
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 95bbd77a0bf8bc44a659c38c4b8b2390
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Character
+        ObjectType: 2
+        guid: 83f16de4807e33458f2164685b0602ed
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Character
+    - name: DirtReverb
+      guid: d93e9b00d4a07045b389f9fd0232566c
+      id: 2554324758
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 95bbd77a0bf8bc44a659c38c4b8b2390
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DirtReverb
+        ObjectType: 1
+        guid: d93e9b00d4a07045b389f9fd0232566c
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/DirtReverb
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +105,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+    - name: Reverb
+      guid: bc13e53c3393da4d8353a059284a700d
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 95bbd77a0bf8bc44a659c38c4b8b2390
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: bc13e53c3393da4d8353a059284a700d
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Reverb
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
@@ -66,9 +134,221 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 8052a4e562ed4d44bb6507bd0702ca45
     GuidInternal: 
-    m_lastTime: -8584319985068456174
-    List: []
+    m_lastTime: -8584232000650544888
+    List:
+    - name: Character
+      guid: 095f627b5c36bf4ea7151a3cf9a123e4
+      id: 436743010
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8052a4e562ed4d44bb6507bd0702ca45
+      - ElementName: Character
+        ObjectType: 7
+        guid: 095f627b5c36bf4ea7151a3cf9a123e4
+      Path: SoundBanks/Default Work Unit/Character
+    - name: CHR_NPC_Chomper
+      guid: 38292ad1512df040a8c2c7cffde1f2f8
+      id: 3655625949
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8052a4e562ed4d44bb6507bd0702ca45
+      - ElementName: CHR_NPC_Chomper
+        ObjectType: 7
+        guid: 38292ad1512df040a8c2c7cffde1f2f8
+      Path: SoundBanks/Default Work Unit/CHR_NPC_Chomper
+    - name: GPE
+      guid: 67f847465993d84aa93fcd85a669010c
+      id: 831326253
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8052a4e562ed4d44bb6507bd0702ca45
+      - ElementName: GPE
+        ObjectType: 7
+        guid: 67f847465993d84aa93fcd85a669010c
+      Path: SoundBanks/Default Work Unit/GPE
+    - name: GRENADIER
+      guid: 728d22a11d23d3489072cc65190167ca
+      id: 1343892184
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8052a4e562ed4d44bb6507bd0702ca45
+      - ElementName: GRENADIER
+        ObjectType: 7
+        guid: 728d22a11d23d3489072cc65190167ca
+      Path: SoundBanks/Default Work Unit/GRENADIER
+    - name: SB_AMB
+      guid: 82d681de85e31c41a1f04846d7448eea
+      id: 925885567
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8052a4e562ed4d44bb6507bd0702ca45
+      - ElementName: SB_AMB
+        ObjectType: 7
+        guid: 82d681de85e31c41a1f04846d7448eea
+      Path: SoundBanks/Default Work Unit/SB_AMB
+    - name: UI
+      guid: 1609816cf0c79c488fa4693faaf6645f
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8052a4e562ed4d44bb6507bd0702ca45
+      - ElementName: UI
+        ObjectType: 7
+        guid: 1609816cf0c79c488fa4693faaf6645f
+      Path: SoundBanks/Default Work Unit/UI
   EventWwu:
+  - PhysicalPath: Events/AMBIENCES.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ac4094c45200a94e99bb94a149a2157a
+    - ElementName: AMBIENCES
+      ObjectType: 12
+      guid: 43ae5f47c3dbf444b423574a8758979e
+    ParentPath: Events/Default Work Unit/AMBIENCES
+    guid: 43ae5f47c3dbf444b423574a8758979e
+    GuidInternal: 
+    m_lastTime: -8584245778660797263
+    List:
+    - name: Play_AMB_Lvl1_Stream_LP
+      guid: 882695186edef649bef9edc642937fd3
+      id: 298632860
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: AMBIENCES
+        ObjectType: 12
+        guid: 43ae5f47c3dbf444b423574a8758979e
+      - ElementName: Play_AMB_Lvl1_Stream_LP
+        ObjectType: 3
+        guid: 882695186edef649bef9edc642937fd3
+      Path: Events/Default Work Unit/AMBIENCES/Play_AMB_Lvl1_Stream_LP
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_AMB_Lvl1_Stream_LP
+      guid: 2daa60702fc4cd4aa962d1270a1b68f3
+      id: 3709250870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: AMBIENCES
+        ObjectType: 12
+        guid: 43ae5f47c3dbf444b423574a8758979e
+      - ElementName: Stop_AMB_Lvl1_Stream_LP
+        ObjectType: 3
+        guid: 2daa60702fc4cd4aa962d1270a1b68f3
+      Path: Events/Default Work Unit/AMBIENCES/Stop_AMB_Lvl1_Stream_LP
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events/Character.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ac4094c45200a94e99bb94a149a2157a
+    - ElementName: Character
+      ObjectType: 12
+      guid: c08b49324d58594dbd3f2a5553eb0015
+    ParentPath: Events/Default Work Unit/Character
+    guid: c08b49324d58594dbd3f2a5553eb0015
+    GuidInternal: 
+    m_lastTime: -8584276493894671816
+    List:
+    - name: Play_Footsteps_Dirt
+      guid: 20d8d3ec3796314a8de8fa33405c82db
+      id: 3256576449
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Character
+        ObjectType: 12
+        guid: c08b49324d58594dbd3f2a5553eb0015
+      - ElementName: Play_Footsteps_Dirt
+        ObjectType: 3
+        guid: 20d8d3ec3796314a8de8fa33405c82db
+      Path: Events/Default Work Unit/Character/Play_Footsteps_Dirt
+      maxAttenuation: 0
+      maxDuration: 0.5294044
+      minDuration: 0.425
+  - PhysicalPath: Events/CHR_NPC_Chomper.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ac4094c45200a94e99bb94a149a2157a
+    - ElementName: CHR_NPC_Chomper
+      ObjectType: 12
+      guid: 8752f6039396e04fb85e7d81fb8e5b4e
+    ParentPath: Events/Default Work Unit/CHR_NPC_Chomper
+    guid: 8752f6039396e04fb85e7d81fb8e5b4e
+    GuidInternal: 
+    m_lastTime: -8584297303503881021
+    List:
+    - name: Play_CHR_NPC_Chomper_Attack
+      guid: c6aea9ab35721340bcd8c91e27f22d0a
+      id: 3332244947
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: CHR_NPC_Chomper
+        ObjectType: 12
+        guid: 8752f6039396e04fb85e7d81fb8e5b4e
+      - ElementName: Play_CHR_NPC_Chomper_Attack
+        ObjectType: 3
+        guid: c6aea9ab35721340bcd8c91e27f22d0a
+      Path: Events/Default Work Unit/CHR_NPC_Chomper/Play_CHR_NPC_Chomper_Attack
+      maxAttenuation: 100
+      maxDuration: 1.3207866
+      minDuration: 1.2101667
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -80,8 +360,807 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: ac4094c45200a94e99bb94a149a2157a
     GuidInternal: 
-    m_lastTime: -8584319985068497856
-    List: []
+    m_lastTime: -8584232000650570067
+    List:
+    - name: amb_CREATURES
+      guid: f3c080f0d71cb74b859aed13eb01e7e5
+      id: 171715556
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: amb_CREATURES
+        ObjectType: 3
+        guid: f3c080f0d71cb74b859aed13eb01e7e5
+      Path: Events/Default Work Unit/amb_CREATURES
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_LEVEL1
+      guid: de2d1dbead03be42b224540154c53dc6
+      id: 1855356818
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_AMB_LEVEL1
+        ObjectType: 3
+        guid: de2d1dbead03be42b224540154c53dc6
+      Path: Events/Default Work Unit/Play_AMB_LEVEL1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_Lvl1_Layer1
+      guid: 353d3b805148704f8559f4b6002d6dd9
+      id: 151537865
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_AMB_Lvl1_Layer1
+        ObjectType: 3
+        guid: 353d3b805148704f8559f4b6002d6dd9
+      Path: Events/Default Work Unit/Play_AMB_Lvl1_Layer1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_Lvl1_Stream
+      guid: 2895f6bce5aad24783617663db3bbe41
+      id: 539297341
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_AMB_Lvl1_Stream
+        ObjectType: 3
+        guid: 2895f6bce5aad24783617663db3bbe41
+      Path: Events/Default Work Unit/Play_AMB_Lvl1_Stream
+      maxAttenuation: 20
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_RFX_WLD_Fish
+      guid: bb489f3342e6f34c973bb8fb999887f6
+      id: 2566398626
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_AMB_RFX_WLD_Fish
+        ObjectType: 3
+        guid: bb489f3342e6f34c973bb8fb999887f6
+      Path: Events/Default Work Unit/Play_AMB_RFX_WLD_Fish
+      maxAttenuation: 25
+      maxDuration: 1.2078894
+      minDuration: 1.0982131
+    - name: Play_Chr_Land
+      guid: 7a0bd2b2cb6b8b448a40f88d35f66d43
+      id: 1611173
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_Chr_Land
+        ObjectType: 3
+        guid: 7a0bd2b2cb6b8b448a40f88d35f66d43
+      Path: Events/Default Work Unit/Play_Chr_Land
+      maxAttenuation: 0
+      maxDuration: 1.1781459
+      minDuration: 0.4495
+    - name: Play_CHR_MC_Damage
+      guid: e614425a9e0dd943a7a9972ff06f0926
+      id: 3233992054
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_MC_Damage
+        ObjectType: 3
+        guid: e614425a9e0dd943a7a9972ff06f0926
+      Path: Events/Default Work Unit/Play_CHR_MC_Damage
+      maxAttenuation: 0
+      maxDuration: 0.5853754
+      minDuration: 0.30040196
+    - name: Play_CHR_MC_Death
+      guid: 6b98baa31b0fbf478c73315cccf554ac
+      id: 3183391453
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_MC_Death
+        ObjectType: 3
+        guid: 6b98baa31b0fbf478c73315cccf554ac
+      Path: Events/Default Work Unit/Play_CHR_MC_Death
+      maxAttenuation: 0
+      maxDuration: 2.2708333
+      minDuration: 0.66197914
+    - name: Play_CHR_MC_Ft__Run_Stone
+      guid: f4957b247d7ce0408044683b764f9e51
+      id: 957402910
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_MC_Ft__Run_Stone
+        ObjectType: 3
+        guid: f4957b247d7ce0408044683b764f9e51
+      Path: Events/Default Work Unit/Play_CHR_MC_Ft__Run_Stone
+      maxAttenuation: 0
+      maxDuration: 0.30679166
+      minDuration: 0.21232021
+    - name: Play_CHR_MC_Ft_Jump_Generic
+      guid: 479121b0d58afc4c8f475e7524e00417
+      id: 1872190232
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_MC_Ft_Jump_Generic
+        ObjectType: 3
+        guid: 479121b0d58afc4c8f475e7524e00417
+      Path: Events/Default Work Unit/Play_CHR_MC_Ft_Jump_Generic
+      maxAttenuation: 0
+      maxDuration: 0.44720834
+      minDuration: 0.30875
+    - name: Play_CHR_MC_Ft_Land_Grass
+      guid: 71d5edebf6d9bf45b93cbb47e9665c96
+      id: 1580251194
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_MC_Ft_Land_Grass
+        ObjectType: 3
+        guid: 71d5edebf6d9bf45b93cbb47e9665c96
+      Path: Events/Default Work Unit/Play_CHR_MC_Ft_Land_Grass
+      maxAttenuation: 0
+      maxDuration: 0.662597
+      minDuration: 0.4495
+    - name: Play_CHR_MC_Ft_Roll_Grass
+      guid: 4f9bec4f61ffd04d834d1bd35c75f2b7
+      id: 253023556
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_MC_Ft_Roll_Grass
+        ObjectType: 3
+        guid: 4f9bec4f61ffd04d834d1bd35c75f2b7
+      Path: Events/Default Work Unit/Play_CHR_MC_Ft_Roll_Grass
+      maxAttenuation: 0
+      maxDuration: 1.405296
+      minDuration: 1.1480674
+    - name: Play_CHR_NPC_Chomper_Death
+      guid: d916869e7e40d246a9f8ac412579cfb6
+      id: 3583691923
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Chomper_Death
+        ObjectType: 3
+        guid: d916869e7e40d246a9f8ac412579cfb6
+      Path: Events/Default Work Unit/Play_CHR_NPC_Chomper_Death
+      maxAttenuation: 100
+      maxDuration: 1.4391388
+      minDuration: 1.2101667
+    - name: Play_CHR_NPC_Chomper_Ft_Dirt
+      guid: 48e61bcdaf106e439c148c9e41a0ec33
+      id: 1788349743
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Chomper_Ft_Dirt
+        ObjectType: 3
+        guid: 48e61bcdaf106e439c148c9e41a0ec33
+      Path: Events/Default Work Unit/Play_CHR_NPC_Chomper_Ft_Dirt
+      maxAttenuation: 27
+      maxDuration: 1.4257364
+      minDuration: 1.1817083
+    - name: Play_CHR_NPC_Chomper_Idle
+      guid: 8100efaaf73b9149918af36ffca6e68f
+      id: 1781033021
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Chomper_Idle
+        ObjectType: 3
+        guid: 8100efaaf73b9149918af36ffca6e68f
+      Path: Events/Default Work Unit/Play_CHR_NPC_Chomper_Idle
+      maxAttenuation: 30
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_CHR_NPC_Chomper_Spotted
+      guid: 1de573bd8776a843bd034891bd4ab923
+      id: 3879492498
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Chomper_Spotted
+        ObjectType: 3
+        guid: 1de573bd8776a843bd034891bd4ab923
+      Path: Events/Default Work Unit/Play_CHR_NPC_Chomper_Spotted
+      maxAttenuation: 50
+      maxDuration: 1.3583661
+      minDuration: 1.2101667
+    - name: Play_CHR_NPC_Gole_RangeAttack2
+      guid: 35c12b6238742548a1ecb42acd62f518
+      id: 1602512515
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Gole_RangeAttack2
+        ObjectType: 3
+        guid: 35c12b6238742548a1ecb42acd62f518
+      Path: Events/Default Work Unit/Play_CHR_NPC_Gole_RangeAttack2
+      maxAttenuation: 50
+      maxDuration: 3.439875
+      minDuration: 3.439875
+    - name: Play_CHR_NPC_Golem_Death
+      guid: 4b8975b1f53917428ae2fcd6a6a8d1e7
+      id: 3486681681
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Golem_Death
+        ObjectType: 3
+        guid: 4b8975b1f53917428ae2fcd6a6a8d1e7
+      Path: Events/Default Work Unit/Play_CHR_NPC_Golem_Death
+      maxAttenuation: 100
+      maxDuration: 4.5006666
+      minDuration: 4.5006666
+    - name: Play_CHR_NPC_Golem_Ft_Stone
+      guid: 55a1667a8828c0439ec946459e3c756e
+      id: 2200584489
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Golem_Ft_Stone
+        ObjectType: 3
+        guid: 55a1667a8828c0439ec946459e3c756e
+      Path: Events/Default Work Unit/Play_CHR_NPC_Golem_Ft_Stone
+      maxAttenuation: 30
+      maxDuration: 0.601375
+      minDuration: 0.36041668
+    - name: Play_CHR_NPC_Golem_Hit
+      guid: 2fe347d911ea254e9ee754464b933568
+      id: 2775598496
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Golem_Hit
+        ObjectType: 3
+        guid: 2fe347d911ea254e9ee754464b933568
+      Path: Events/Default Work Unit/Play_CHR_NPC_Golem_Hit
+      maxAttenuation: 100
+      maxDuration: 1.1637166
+      minDuration: 0.62579167
+    - name: Play_CHR_NPC_Golem_LR_Attack_01
+      guid: dad18d4c7d789b418e1267966fa61f37
+      id: 367434608
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Golem_LR_Attack_01
+        ObjectType: 3
+        guid: dad18d4c7d789b418e1267966fa61f37
+      Path: Events/Default Work Unit/Play_CHR_NPC_Golem_LR_Attack_01
+      maxAttenuation: 100
+      maxDuration: 2.9238534
+      minDuration: 2.75975
+    - name: Play_CHR_NPC_Golem_melee_Attack_01
+      guid: da1ce4748082df459feac6207516fe75
+      id: 1099734496
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_CHR_NPC_Golem_melee_Attack_01
+        ObjectType: 3
+        guid: da1ce4748082df459feac6207516fe75
+      Path: Events/Default Work Unit/Play_CHR_NPC_Golem_melee_Attack_01
+      maxAttenuation: 0
+      maxDuration: 2.624479
+      minDuration: 2.624479
+    - name: Play_Footsteps
+      guid: 33622e1f38a3774b84204cbcc5018b49
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: 33622e1f38a3774b84204cbcc5018b49
+      Path: Events/Default Work Unit/Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.6265
+      minDuration: 0.21232021
+    - name: Play_GPE_Chest_Lp
+      guid: c0532d5fc116674881110a8caffab412
+      id: 1327925721
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_GPE_Chest_Lp
+        ObjectType: 3
+        guid: c0532d5fc116674881110a8caffab412
+      Path: Events/Default Work Unit/Play_GPE_Chest_Lp
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_GPE_Chest_Open
+      guid: 598b5adf05e9a04482999363fdd2135b
+      id: 82966289
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_GPE_Chest_Open
+        ObjectType: 3
+        guid: 598b5adf05e9a04482999363fdd2135b
+      Path: Events/Default Work Unit/Play_GPE_Chest_Open
+      maxAttenuation: 0
+      maxDuration: 4.4864583
+      minDuration: 4.394271
+    - name: Play_GPE_Crystal_Activated
+      guid: 37c035e9d3d38246b14ebdd9a4d516e4
+      id: 3799051395
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_GPE_Crystal_Activated
+        ObjectType: 3
+        guid: 37c035e9d3d38246b14ebdd9a4d516e4
+      Path: Events/Default Work Unit/Play_GPE_Crystal_Activated
+      maxAttenuation: 0
+      maxDuration: 3.5679572
+      minDuration: 2.5828946
+    - name: Play_GPE_Door_Sliding_01
+      guid: 06e4086c49441c449e510a2677c89cbb
+      id: 2317446538
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_GPE_Door_Sliding_01
+        ObjectType: 3
+        guid: 06e4086c49441c449e510a2677c89cbb
+      Path: Events/Default Work Unit/Play_GPE_Door_Sliding_01
+      maxAttenuation: 0
+      maxDuration: 5.1997333
+      minDuration: 5.1997333
+    - name: Play_GPE_WEA_Pedestal_LP
+      guid: 4661c7eb9212cc49a5c84cab61b78c40
+      id: 2576060732
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_GPE_WEA_Pedestal_LP
+        ObjectType: 3
+        guid: 4661c7eb9212cc49a5c84cab61b78c40
+      Path: Events/Default Work Unit/Play_GPE_WEA_Pedestal_LP
+      maxAttenuation: 30
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_GPE_WEA_PickUp
+      guid: a5d44566f92ed943bbf7f01d889c9d25
+      id: 382164459
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_GPE_WEA_PickUp
+        ObjectType: 3
+        guid: a5d44566f92ed943bbf7f01d889c9d25
+      Path: Events/Default Work Unit/Play_GPE_WEA_PickUp
+      maxAttenuation: 0
+      maxDuration: 2.5470417
+      minDuration: 2.5470417
+    - name: Play_pressure_pad_test
+      guid: 934d93f6fda7174b994c83aabad295c1
+      id: 3837940592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_pressure_pad_test
+        ObjectType: 3
+        guid: 934d93f6fda7174b994c83aabad295c1
+      Path: Events/Default Work Unit/Play_pressure_pad_test
+      maxAttenuation: 0
+      maxDuration: 1.1413907
+      minDuration: 1.1413907
+    - name: Play_UI_Menu_Generic_Slider_01
+      guid: 23a739229f839e4897b8c8eb369c98c3
+      id: 779907018
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_UI_Menu_Generic_Slider_01
+        ObjectType: 3
+        guid: 23a739229f839e4897b8c8eb369c98c3
+      Path: Events/Default Work Unit/Play_UI_Menu_Generic_Slider_01
+      maxAttenuation: 0
+      maxDuration: 5.810729
+      minDuration: 5.810729
+    - name: Play_UI_Menu_Hover
+      guid: 6ac109d5802ddb42a12d6eed96dbab59
+      id: 2880217405
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_UI_Menu_Hover
+        ObjectType: 3
+        guid: 6ac109d5802ddb42a12d6eed96dbab59
+      Path: Events/Default Work Unit/Play_UI_Menu_Hover
+      maxAttenuation: 0
+      maxDuration: 0.6794567
+      minDuration: 0.6601139
+    - name: Play_UI_Menu_Pause
+      guid: e294d67be781a64e81ec7faf3fb5e7d8
+      id: 64353981
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_UI_Menu_Pause
+        ObjectType: 3
+        guid: e294d67be781a64e81ec7faf3fb5e7d8
+      Path: Events/Default Work Unit/Play_UI_Menu_Pause
+      maxAttenuation: 0
+      maxDuration: 0.37325
+      minDuration: 0.1921875
+    - name: Play_UI_Menu_Start_Validate
+      guid: 9766e14eba7d184189ccd092deb25c7f
+      id: 1264554120
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_UI_Menu_Start_Validate
+        ObjectType: 3
+        guid: 9766e14eba7d184189ccd092deb25c7f
+      Path: Events/Default Work Unit/Play_UI_Menu_Start_Validate
+      maxAttenuation: 0
+      maxDuration: 0.18177083
+      minDuration: 0.13802083
+    - name: Play_UI_Menu_Validate
+      guid: 1f742ad0de8eb74a8488563315504f45
+      id: 3880158019
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_UI_Menu_Validate
+        ObjectType: 3
+        guid: 1f742ad0de8eb74a8488563315504f45
+      Path: Events/Default Work Unit/Play_UI_Menu_Validate
+      maxAttenuation: 0
+      maxDuration: 0.69133335
+      minDuration: 0.69133335
+    - name: Play_WEA_Staff_Hit_Chomper
+      guid: d4aa67393b3d3645890121b292fa8225
+      id: 2164744777
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_WEA_Staff_Hit_Chomper
+        ObjectType: 3
+        guid: d4aa67393b3d3645890121b292fa8225
+      Path: Events/Default Work Unit/Play_WEA_Staff_Hit_Chomper
+      maxAttenuation: 0
+      maxDuration: 1.4391388
+      minDuration: 1.2101667
+    - name: Play_WEA_Staff_Hit_Leaves
+      guid: 101a65a35e9c2445adc1a8a14acf6963
+      id: 2592287833
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_WEA_Staff_Hit_Leaves
+        ObjectType: 3
+        guid: 101a65a35e9c2445adc1a8a14acf6963
+      Path: Events/Default Work Unit/Play_WEA_Staff_Hit_Leaves
+      maxAttenuation: 45
+      maxDuration: 1.3993478
+      minDuration: 0.9516078
+    - name: Play_WEA_Staff_Hit_Stone
+      guid: 2c044505e5ae104a812ed2d4e354501f
+      id: 2802203580
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_WEA_Staff_Hit_Stone
+        ObjectType: 3
+        guid: 2c044505e5ae104a812ed2d4e354501f
+      Path: Events/Default Work Unit/Play_WEA_Staff_Hit_Stone
+      maxAttenuation: 0
+      maxDuration: 3.912375
+      minDuration: 2.5470417
+    - name: Play_WEA_Staff_Woosh
+      guid: e4f21c50e8901a4a828090b6da6804c5
+      id: 769138725
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Play_WEA_Staff_Woosh
+        ObjectType: 3
+        guid: e4f21c50e8901a4a828090b6da6804c5
+      Path: Events/Default Work Unit/Play_WEA_Staff_Woosh
+      maxAttenuation: 0
+      maxDuration: 1.1817083
+      minDuration: 1.1817083
+    - name: Set_Game_Parameter_SliderPitch
+      guid: da05a35a7734194e8c0bc80a36819f87
+      id: 2550371234
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Set_Game_Parameter_SliderPitch
+        ObjectType: 3
+        guid: da05a35a7734194e8c0bc80a36819f87
+      Path: Events/Default Work Unit/Set_Game_Parameter_SliderPitch
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_AMB_Lvl1_Stream
+      guid: 6184b26c354d8642b30090c68a65ea63
+      id: 3889595239
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Stop_AMB_Lvl1_Stream
+        ObjectType: 3
+        guid: 6184b26c354d8642b30090c68a65ea63
+      Path: Events/Default Work Unit/Stop_AMB_Lvl1_Stream
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_CHR_NPC_Chomper_Idle
+      guid: cd32e71b4f43c74b97102eac4e90bc50
+      id: 3978891539
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Stop_CHR_NPC_Chomper_Idle
+        ObjectType: 3
+        guid: cd32e71b4f43c74b97102eac4e90bc50
+      Path: Events/Default Work Unit/Stop_CHR_NPC_Chomper_Idle
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_CHR_NPC_Chomper_Spotted
+      guid: 2f54e7b125d5924483c640a87dd201ad
+      id: 4121529228
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Stop_CHR_NPC_Chomper_Spotted
+        ObjectType: 3
+        guid: 2f54e7b125d5924483c640a87dd201ad
+      Path: Events/Default Work Unit/Stop_CHR_NPC_Chomper_Spotted
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_GPE_Chest_Lp
+      guid: 4b3030a90f47324289c21e3ecc1ee5fe
+      id: 968907075
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Stop_GPE_Chest_Lp
+        ObjectType: 3
+        guid: 4b3030a90f47324289c21e3ecc1ee5fe
+      Path: Events/Default Work Unit/Stop_GPE_Chest_Lp
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_GPE_Door_Sliding_01
+      guid: df23607d3e74dd41af3c8e120facefd6
+      id: 1502712324
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Stop_GPE_Door_Sliding_01
+        ObjectType: 3
+        guid: df23607d3e74dd41af3c8e120facefd6
+      Path: Events/Default Work Unit/Stop_GPE_Door_Sliding_01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_GPE_WEA_Pedestal_LP
+      guid: 581d59348d032d4aa97333fcf8629237
+      id: 1428396790
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Stop_GPE_WEA_Pedestal_LP
+        ObjectType: 3
+        guid: 581d59348d032d4aa97333fcf8629237
+      Path: Events/Default Work Unit/Stop_GPE_WEA_Pedestal_LP
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_UI_Menu_Generic_Slider_01
+      guid: c537f5c537b7834f94916c969e2e9b65
+      id: 1650025720
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ac4094c45200a94e99bb94a149a2157a
+      - ElementName: Stop_UI_Menu_Generic_Slider_01
+        ObjectType: 3
+        guid: c537f5c537b7834f94916c969e2e9b65
+      Path: Events/Default Work Unit/Stop_UI_Menu_Generic_Slider_01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +1173,22 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: ca678d0ec3c48d4782888122f0812eb6
     GuidInternal: 
-    m_lastTime: -8584319985068441295
-    List: []
+    m_lastTime: -8584232000650528811
+    List:
+    - name: SliderPitch
+      guid: 3983f8f02752194ebc6938dd758fda95
+      id: 2142350220
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ca678d0ec3c48d4782888122f0812eb6
+      - ElementName: SliderPitch
+        ObjectType: 13
+        guid: 3983f8f02752194ebc6938dd758fda95
+      Path: Game Parameters/Default Work Unit/SliderPitch
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -108,7 +1201,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 8687c8ad722b0c479477ca88409d031b
     GuidInternal: 
-    m_lastTime: -8584319985068469765
+    m_lastTime: -8584319984557844633
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -122,8 +1215,140 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 81d547705e25b94e902a9066a2eb9940
     GuidInternal: 
-    m_lastTime: -8584319985068484111
-    List: []
+    m_lastTime: -8584232642929730361
+    List:
+    - name: Chr_Land
+      guid: a04a1604ec4b7d45b9553bcd4263a806
+      id: 1817860398
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d547705e25b94e902a9066a2eb9940
+      - ElementName: Chr_Land
+        ObjectType: 11
+        guid: a04a1604ec4b7d45b9553bcd4263a806
+      Path: Switches/Default Work Unit/Chr_Land
+      values:
+      - name: Grass
+        guid: 958c3f9b64fa4945849626dec9118c95
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 81d547705e25b94e902a9066a2eb9940
+        - ElementName: Chr_Land
+          ObjectType: 11
+          guid: a04a1604ec4b7d45b9553bcd4263a806
+        - ElementName: Grass
+          ObjectType: 10
+          guid: 958c3f9b64fa4945849626dec9118c95
+      - name: Metal
+        guid: d207ebb9eed4b447844ba4d08d7ff6c3
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 81d547705e25b94e902a9066a2eb9940
+        - ElementName: Chr_Land
+          ObjectType: 11
+          guid: a04a1604ec4b7d45b9553bcd4263a806
+        - ElementName: Metal
+          ObjectType: 10
+          guid: d207ebb9eed4b447844ba4d08d7ff6c3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Footsteps
+      guid: 11727e2cbc1bfd459dfbb655c94fc419
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d547705e25b94e902a9066a2eb9940
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: 11727e2cbc1bfd459dfbb655c94fc419
+      Path: Switches/Default Work Unit/Footsteps
+      values:
+      - name: Dirt
+        guid: 71f77e632de91c4ba9daaa343cf9fd3c
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 81d547705e25b94e902a9066a2eb9940
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 11727e2cbc1bfd459dfbb655c94fc419
+        - ElementName: Dirt
+          ObjectType: 10
+          guid: 71f77e632de91c4ba9daaa343cf9fd3c
+      - name: Grass
+        guid: ccebebbf96d5cc4f93e325a2ebf10490
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 81d547705e25b94e902a9066a2eb9940
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 11727e2cbc1bfd459dfbb655c94fc419
+        - ElementName: Grass
+          ObjectType: 10
+          guid: ccebebbf96d5cc4f93e325a2ebf10490
+      - name: Metal
+        guid: 23614424b5d6544c9c1ceade321bfde4
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 81d547705e25b94e902a9066a2eb9940
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 11727e2cbc1bfd459dfbb655c94fc419
+        - ElementName: Metal
+          ObjectType: 10
+          guid: 23614424b5d6544c9c1ceade321bfde4
+      - name: Stone
+        guid: efa240c6bf0a574087852a2f111ca132
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 81d547705e25b94e902a9066a2eb9940
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 11727e2cbc1bfd459dfbb655c94fc419
+        - ElementName: Stone
+          ObjectType: 10
+          guid: efa240c6bf0a574087852a2f111ca132
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
@@ -136,10 +1361,10 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: f66da062dec6344789c0c960ee862866
     GuidInternal: 
-    m_lastTime: -8584319985068358929
+    m_lastTime: -8584319984557841734
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000110000001600000017000000180000001a0000001c0000001e000000200000002100000026000000270000002a0000002b0000002c0000002f0000003000000031000000320000003400000035000000360000003b0000008300000084000000c2000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

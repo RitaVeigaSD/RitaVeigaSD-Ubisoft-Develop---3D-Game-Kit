@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject",
+   "GUID": "{4DED2951-71AE-4FC5-AD5D-C52779FF7101}",
+   "Generator": "2024.1.10.8979"
+  },
+  "CacheRoot": "../../../../RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{D15A5D9E-F254-48EE-AF5D-C8E541B1810A}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{37A0A8C7-475C-43F4-872F-543B91EB0C88}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{8EC22581-08DE-4C35-B6E1-689D74BE2F25}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{F1C159E0-E252-94EB-BA97-1391D2AD66B3}"
+ }
+}

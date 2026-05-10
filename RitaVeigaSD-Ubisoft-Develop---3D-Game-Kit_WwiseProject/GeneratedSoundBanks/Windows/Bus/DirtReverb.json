@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2554324758",
+    "Type": "Bus",
+    "GUID": "{009B3ED9-A0D4-4570-B389-F9FD0232566C}",
+    "Language": "SFX",
+    "Hash": "{C9CC54B3-5396-D239-9274-CCFA70C8BE00}",
+    "ObjectPath": "DirtReverb",
+    "ShortName": "DirtReverb",
+    "Path": "Bus/DirtReverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2554324758",
+      "Name": "DirtReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\DirtReverb",
+      "GUID": "{009B3ED9-A0D4-4570-B389-F9FD0232566C}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D5A1DD92-42E8-F5C1-6CD3-EECC7B97FE22}"
+ }
+}

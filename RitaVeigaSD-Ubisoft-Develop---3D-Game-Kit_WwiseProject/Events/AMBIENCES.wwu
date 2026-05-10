@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{475FAE43-DBC3-44F4-B423-574A8758979E}" SchemaVersion="123" RootDocumentID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" ParentDocumentID="{C49440AC-0052-4EA9-99BB-94A149A2157A}">
+	<Events>
+		<WorkUnit Name="AMBIENCES" ID="{475FAE43-DBC3-44F4-B423-574A8758979E}" OwnerID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_AMB_Lvl1_Stream_LP" ID="{18952688-DE6E-49F6-BEF9-EDC642937FD3}">
+					<ChildrenList>
+						<Action Name="" ID="{BEF09C32-63D9-4AD3-8A1F-D0BE60366A1C}" ShortID="155712902">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_FOREST" ID="{BE764028-B45B-4EB2-A20B-D847CAEE1143}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7BBED69D-339B-4456-967E-41BECDC35EA2}" ShortID="711844479">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Frogs" ID="{DE6270B1-C24A-4F24-BB96-D271F70AED7D}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AD4FE9D9-CC38-4D09-AF94-C35466194532}" ShortID="1071691244">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Insects" ID="{0DEB8AD1-8305-4EC6-86E7-135AA9A48758}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_Lvl1_Stream_LP" ID="{7060AA2D-C42F-4ACD-A962-D1270A1B68F3}">
+					<ChildrenList>
+						<Action Name="" ID="{09044AA7-B067-4FBE-9154-A71CFFDE769C}" ShortID="954630617">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Lvl1_Stream" ID="{21DA3ED8-547F-44A1-8D83-4DBF0743E1D2}" WorkUnitID="{3E3B4A9B-4759-4CBE-88DD-162C297F75AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

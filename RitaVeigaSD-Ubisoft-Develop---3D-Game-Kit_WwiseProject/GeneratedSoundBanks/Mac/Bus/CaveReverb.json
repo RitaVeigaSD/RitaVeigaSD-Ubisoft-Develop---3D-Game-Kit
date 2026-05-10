@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1697398818",
+    "Type": "Bus",
+    "GUID": "{E92A9F4C-3D18-4BDD-8397-84E957C0B762}",
+    "Language": "SFX",
+    "Hash": "{AE1CCF8D-9308-F8A9-5CCB-C78016038509}",
+    "ObjectPath": "CaveReverb",
+    "ShortName": "CaveReverb",
+    "Path": "Bus/CaveReverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "484890516",
+       "Name": "Church_Small_Wood",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Church_Small_Wood",
+       "GUID": "{940CCB47-F031-4C6A-B0E6-726CAC418C02}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1697398818",
+      "Name": "CaveReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\CaveReverb",
+      "GUID": "{E92A9F4C-3D18-4BDD-8397-84E957C0B762}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "484890516"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B3CC975F-FDF3-B1BB-E11A-5EE937B9C145}"
+ }
+}

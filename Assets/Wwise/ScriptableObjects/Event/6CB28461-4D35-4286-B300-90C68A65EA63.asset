@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27be35b0ec254437c959c165aa7a14d0, type: 3}
+  m_Name: 6CB28461-4D35-4286-B300-90C68A65EA63
+  m_EditorClassIdentifier: 
+  objectName: Stop_AMB_Lvl1_Stream
+  id: 3889595239
+  guid: 6CB28461-4D35-4286-B300-90C68A65EA63
+  IsInUserDefinedSoundBank: 1

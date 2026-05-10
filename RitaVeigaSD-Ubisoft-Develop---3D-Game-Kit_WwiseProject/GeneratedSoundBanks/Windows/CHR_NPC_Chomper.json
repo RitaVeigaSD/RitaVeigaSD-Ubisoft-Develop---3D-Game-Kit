@@ -1,0 +1,378 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3655625949",
+    "Type": "User",
+    "GUID": "{D12A2938-2D51-40F0-A8C2-C7CFFDE1F2F8}",
+    "Language": "SFX",
+    "Hash": "{548E89DB-C11A-0AB3-207D-9FF692E2AC3A}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\CHR_NPC_Chomper",
+    "ShortName": "CHR_NPC_Chomper",
+    "Path": "CHR_NPC_Chomper.bnk",
+    "Media": [
+     {
+      "Id": "12877511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper_Attack_4.wav",
+      "CachePath": "DF/{DF7210FF-5F96-51B8-9C11-39363F916266}.wem"
+     },
+     {
+      "Id": "147741827",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Death_01.wav",
+      "CachePath": "A3/{A32B7105-192B-85C9-EFF9-C79A7192878F}.wem"
+     },
+     {
+      "Id": "186336356",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Reaction_04.wav",
+      "CachePath": "88/{88E6CF04-727B-6A71-98A3-3D167A960617}.wem"
+     },
+     {
+      "Id": "201835866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Ft_Run_Dirt_01.wav",
+      "CachePath": "74/{746E81F4-0041-E796-E070-C62A17E9549C}.wem"
+     },
+     {
+      "Id": "234990263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Death_03.wav",
+      "CachePath": "55/{55853734-5361-73BE-A51A-42FBE0D0396D}.wem"
+     },
+     {
+      "Id": "245629727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper_Attack_3.wav",
+      "CachePath": "FD/{FDCA5B97-53DE-720D-9594-A012360691D4}.wem"
+     },
+     {
+      "Id": "372801989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper_Attack_6.wav",
+      "CachePath": "70/{708DB4A6-190D-4DA3-036A-237CE004E21D}.wem"
+     },
+     {
+      "Id": "385225089",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper_Attack_1.wav",
+      "CachePath": "00/{007C4117-BAF1-F2BA-B6AB-DA3C2984F073}.wem"
+     },
+     {
+      "Id": "402827755",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Idle_06.wav",
+      "CachePath": "38/{38054860-28F8-652D-4B16-6FEF827D58E7}.wem"
+     },
+     {
+      "Id": "458485772",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Idle_02.wav",
+      "CachePath": "E3/{E34E71EA-8635-24EE-0A79-BA5EEDC365DD}.wem"
+     },
+     {
+      "Id": "459174745",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Ft_Run_Dirt_02.wav",
+      "CachePath": "28/{28A4F442-032A-1B3D-8693-5BBC32D74A3A}.wem"
+     },
+     {
+      "Id": "479398399",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Idle_03.wav",
+      "CachePath": "A2/{A2543584-5B72-79C7-966B-1B36CA1DF07D}.wem"
+     },
+     {
+      "Id": "499267893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Ft_Run_Dirt_03.wav",
+      "CachePath": "84/{84AD41D0-FA18-0AA0-A160-C3F60AA2D1EA}.wem"
+     },
+     {
+      "Id": "522378357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Ft_Run_Dirt_04.wav",
+      "CachePath": "EE/{EEA5EF60-3FBC-9E54-201C-FFC04918F557}.wem"
+     },
+     {
+      "Id": "535683675",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper_Attack_5.wav",
+      "CachePath": "9F/{9F07FC3F-FC81-F97D-633E-2FB6C694008C}.wem"
+     },
+     {
+      "Id": "543496983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Ft_Run_Dirt_05.wav",
+      "CachePath": "17/{17C7CFC1-176C-86B0-14C0-71DD34E17271}.wem"
+     },
+     {
+      "Id": "550136050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper_Attack_2.wav",
+      "CachePath": "DB/{DBEEAACD-BE34-E3BD-5CB1-8D03DFB64F67}.wem"
+     },
+     {
+      "Id": "593828976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Reaction_02.wav",
+      "CachePath": "E9/{E9495B29-66C8-DF36-EEB9-D19EE2504584}.wem"
+     },
+     {
+      "Id": "687539183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Reaction_01.wav",
+      "CachePath": "18/{1825A02E-2C46-B525-873E-83FA7C6BDCD5}.wem"
+     },
+     {
+      "Id": "746841655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Idle_01.wav",
+      "CachePath": "98/{986736C3-BBD6-C83A-DC7F-100E6C975261}.wem"
+     },
+     {
+      "Id": "752846064",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Idle_04.wav",
+      "CachePath": "E6/{E6850331-AE1A-B898-ABF3-152FBB0271CD}.wem"
+     },
+     {
+      "Id": "903493120",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Idle_05.wav",
+      "CachePath": "0A/{0A069493-17A6-D433-7228-7125338DEF83}.wem"
+     },
+     {
+      "Id": "936101686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Death_02.wav",
+      "CachePath": "EB/{EBFCB487-EE8D-A1D3-2B40-FEC1360B17F2}.wem"
+     },
+     {
+      "Id": "958669128",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Reaction_05.wav",
+      "CachePath": "1E/{1E0CFCB3-0D30-334E-DFE3-852618FCE2BD}.wem"
+     },
+     {
+      "Id": "997295948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Chomper_Reaction_03.wav",
+      "CachePath": "25/{251D9502-9579-DB6E-55D1-8B44849631D3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3332244947",
+      "Name": "Play_CHR_NPC_Chomper_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\CHR_NPC_Chomper\\Play_CHR_NPC_Chomper_Attack",
+      "GUID": "{ABA9AEC6-7235-4013-BCD8-C91E27F22D0A}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2101667",
+      "DurationMax": "1.3207866",
+      "MediaRefs": [
+       {
+        "Id": "12877511"
+       },
+       {
+        "Id": "245629727"
+       },
+       {
+        "Id": "372801989"
+       },
+       {
+        "Id": "385225089"
+       },
+       {
+        "Id": "535683675"
+       },
+       {
+        "Id": "550136050"
+       }
+      ]
+     },
+     {
+      "Id": "3583691923",
+      "Name": "Play_CHR_NPC_Chomper_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Chomper_Death",
+      "GUID": "{9E8616D9-407E-46D2-A9F8-AC412579CFB6}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2101667",
+      "DurationMax": "1.4391388",
+      "MediaRefs": [
+       {
+        "Id": "147741827"
+       },
+       {
+        "Id": "234990263"
+       },
+       {
+        "Id": "936101686"
+       }
+      ]
+     },
+     {
+      "Id": "1788349743",
+      "Name": "Play_CHR_NPC_Chomper_Ft_Dirt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Chomper_Ft_Dirt",
+      "GUID": "{CD1BE648-10AF-436E-9C14-8C9E41A0EC33}",
+      "MaxAttenuation": "27",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1817083",
+      "DurationMax": "1.4257364",
+      "MediaRefs": [
+       {
+        "Id": "201835866"
+       },
+       {
+        "Id": "459174745"
+       },
+       {
+        "Id": "499267893"
+       },
+       {
+        "Id": "522378357"
+       },
+       {
+        "Id": "543496983"
+       }
+      ]
+     },
+     {
+      "Id": "1781033021",
+      "Name": "Play_CHR_NPC_Chomper_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Chomper_Idle",
+      "GUID": "{AAEF0081-3BF7-4991-918A-F36FFCA6E68F}",
+      "MaxAttenuation": "30",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "402827755"
+       },
+       {
+        "Id": "458485772"
+       },
+       {
+        "Id": "479398399"
+       },
+       {
+        "Id": "746841655"
+       },
+       {
+        "Id": "752846064"
+       },
+       {
+        "Id": "903493120"
+       }
+      ]
+     },
+     {
+      "Id": "3879492498",
+      "Name": "Play_CHR_NPC_Chomper_Spotted",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Chomper_Spotted",
+      "GUID": "{BD73E51D-7687-43A8-BD03-4891BD4AB923}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2101667",
+      "DurationMax": "1.3583661",
+      "MediaRefs": [
+       {
+        "Id": "186336356"
+       },
+       {
+        "Id": "593828976"
+       },
+       {
+        "Id": "687539183"
+       },
+       {
+        "Id": "958669128"
+       },
+       {
+        "Id": "997295948"
+       }
+      ]
+     },
+     {
+      "Id": "3978891539",
+      "Name": "Stop_CHR_NPC_Chomper_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_CHR_NPC_Chomper_Idle",
+      "GUID": "{1BE732CD-434F-4BC7-9710-2EAC4E90BC50}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4121529228",
+      "Name": "Stop_CHR_NPC_Chomper_Spotted",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_CHR_NPC_Chomper_Spotted",
+      "GUID": "{B1E7542F-D525-4492-83C6-40A87DD201AD}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{368EFEB3-3AED-0BC7-F5B2-7EB15BF108DA}"
+ }
+}

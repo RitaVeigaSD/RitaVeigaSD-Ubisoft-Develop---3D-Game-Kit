@@ -1,0 +1,249 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1343892184",
+    "Type": "User",
+    "GUID": "{A1228D72-231D-48D3-9072-CC65190167CA}",
+    "Language": "SFX",
+    "Hash": "{C5FE3E28-3E41-DEDD-56B0-F6970C5278BA}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\GRENADIER",
+    "ShortName": "GRENADIER",
+    "Path": "GRENADIER.bnk",
+    "Media": [
+     {
+      "Id": "545775",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_melee_Attack_01.wav",
+      "CachePath": "7F/{7F8EFCE6-EA76-9624-4619-418FCBFAE238}.wem"
+     },
+     {
+      "Id": "6858840",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Ft_Stone_04.wav",
+      "CachePath": "2F/{2F7AB20F-7BE2-0385-E782-4A825992433B}.wem"
+     },
+     {
+      "Id": "34995964",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Ft_Stone_02.wav",
+      "CachePath": "82/{822621A4-5140-A1B8-F294-58A2923A2DE7}.wem"
+     },
+     {
+      "Id": "74477438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Hit_01.wav",
+      "CachePath": "CC/{CC6E7ECB-6A90-AFCD-35C9-72382F03963A}.wem"
+     },
+     {
+      "Id": "308150488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Ft_Stone_05.wav",
+      "CachePath": "0A/{0A140F8C-3211-0547-4B40-1EA742299A01}.wem"
+     },
+     {
+      "Id": "481936039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_LR_Attack_01.wav",
+      "CachePath": "45/{45E99494-DC95-74A4-4A58-015D18427D8D}.wem"
+     },
+     {
+      "Id": "488867050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Ft_Stone_07.wav",
+      "CachePath": "FA/{FAFAC5DB-91D2-B9F6-4682-69DD9492EB6D}.wem"
+     },
+     {
+      "Id": "512309225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Ft_Stone_08.wav",
+      "CachePath": "1B/{1BE45783-60C0-90A4-5F7E-94A4E15F5964}.wem"
+     },
+     {
+      "Id": "532708324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Hit_02.wav",
+      "CachePath": "D6/{D68C34BE-1E58-7ACA-68B0-17D81FE95437}.wem"
+     },
+     {
+      "Id": "554448222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Death.wav",
+      "CachePath": "2F/{2F18DF70-FB90-463B-EA99-5FEB38428E82}.wem"
+     },
+     {
+      "Id": "580813482",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Ft_Stone_06.wav",
+      "CachePath": "47/{47FDE061-88DE-5FFC-CBEC-EA26251DC05C}.wem"
+     },
+     {
+      "Id": "788932316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Ft_Stone_01.wav",
+      "CachePath": "7F/{7FA6738D-ED8F-C430-AC33-A0A869B725C7}.wem"
+     },
+     {
+      "Id": "898041957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Gole_RangeAttack2.wav",
+      "CachePath": "54/{54E02742-839F-0C22-451D-76043D160F6B}.wem"
+     },
+     {
+      "Id": "904073576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CHR_NPC_Golem_Ft_Stone_03.wav",
+      "CachePath": "1C/{1CA53A3B-F120-EF9A-22DB-43599D99D28D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1602512515",
+      "Name": "Play_CHR_NPC_Gole_RangeAttack2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Gole_RangeAttack2",
+      "GUID": "{622BC135-7438-4825-A1EC-B42ACD62F518}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "3.439875",
+      "DurationMax": "3.439875",
+      "MediaRefs": [
+       {
+        "Id": "898041957"
+       }
+      ]
+     },
+     {
+      "Id": "3486681681",
+      "Name": "Play_CHR_NPC_Golem_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Golem_Death",
+      "GUID": "{B175894B-39F5-4217-8AE2-FCD6A6A8D1E7}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "4.5006666",
+      "DurationMax": "4.5006666",
+      "MediaRefs": [
+       {
+        "Id": "554448222"
+       }
+      ]
+     },
+     {
+      "Id": "2200584489",
+      "Name": "Play_CHR_NPC_Golem_Ft_Stone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Golem_Ft_Stone",
+      "GUID": "{7A66A155-2888-43C0-9EC9-46459E3C756E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.36041668",
+      "DurationMax": "0.601375",
+      "MediaRefs": [
+       {
+        "Id": "6858840"
+       },
+       {
+        "Id": "34995964"
+       },
+       {
+        "Id": "308150488"
+       },
+       {
+        "Id": "488867050"
+       },
+       {
+        "Id": "512309225"
+       },
+       {
+        "Id": "580813482"
+       },
+       {
+        "Id": "788932316"
+       },
+       {
+        "Id": "904073576"
+       }
+      ]
+     },
+     {
+      "Id": "2775598496",
+      "Name": "Play_CHR_NPC_Golem_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Golem_Hit",
+      "GUID": "{D947E32F-EA11-4E25-9EE7-54464B933568}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.62579167",
+      "DurationMax": "1.1637166",
+      "MediaRefs": [
+       {
+        "Id": "74477438"
+       },
+       {
+        "Id": "532708324"
+       }
+      ]
+     },
+     {
+      "Id": "367434608",
+      "Name": "Play_CHR_NPC_Golem_LR_Attack_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Golem_LR_Attack_01",
+      "GUID": "{4C8DD1DA-787D-419B-8E12-67966FA61F37}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "2.75975",
+      "DurationMax": "2.9238534",
+      "MediaRefs": [
+       {
+        "Id": "481936039"
+       }
+      ]
+     },
+     {
+      "Id": "1099734496",
+      "Name": "Play_CHR_NPC_Golem_melee_Attack_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CHR_NPC_Golem_melee_Attack_01",
+      "GUID": "{74E41CDA-8280-45DF-9FEA-C6207516FE75}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.624479",
+      "DurationMax": "2.624479",
+      "MediaRefs": [
+       {
+        "Id": "545775"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B8A2DDFD-2934-769A-11EC-C18AB006F9C0}"
+ }
+}

@@ -1,0 +1,40 @@
+Event	ID	Name			Wwise Object Path	Notes
+	64353981	Play_UI_Menu_Pause			\Default Work Unit\Play_UI_Menu_Pause	
+	779907018	Play_UI_Menu_Generic_Slider_01			\Default Work Unit\Play_UI_Menu_Generic_Slider_01	
+	1264554120	Play_UI_Menu_Start_Validate			\Default Work Unit\Play_UI_Menu_Start_Validate	
+	1650025720	Stop_UI_Menu_Generic_Slider_01			\Default Work Unit\Stop_UI_Menu_Generic_Slider_01	
+	2550371234	Set_Game_Parameter_SliderPitch			\Default Work Unit\Set_Game_Parameter_SliderPitch	
+	2880217405	Play_UI_Menu_Hover			\Default Work Unit\Play_UI_Menu_Hover	
+	3880158019	Play_UI_Menu_Validate			\Default Work Unit\Play_UI_Menu_Validate	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2142350220	SliderPitch			\Default Work Unit\SliderPitch	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	15842964	UI_Menu_Pause_06	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\A8\{A8E1B0BD-A5C8-6D36-F6CA-CF16C6912E9D}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_06		57868
+	118226625	UI_Menu_Pause_07	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\1B\{1BD94695-20D7-CA6C-BA16-11D68D0845FB}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_07		57416
+	126238701	UI_Menu_Start_Validated_01	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\98\{98881BC2-F0F5-F21A-FBE1-D19D347DE99B}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Start_Validate\UI_Menu_Start_Validated_01		33496
+	172657503	UI_Menu_Validate_03	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\1F\{1FCAE8B3-4B7A-5C95-D77F-3EFBC07B8C1D}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Validate\UI_Menu_Validate_03		132832
+	182161282	UI_Menu_Pause_10	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\B1\{B1A48973-7F43-33E7-0D38-29D3FC34DE58}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_10		67116
+	234414951	UI_Menu_Generic_Hover_02	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\60\{60CABACE-6A16-88FE-EE51-4AD354C91C07}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Hover\UI_Menu_Generic_Hover_02		132832
+	272488919	UI_Menu_Validate_05	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\6B\{6BDFB255-EACD-342D-83BD-65615FB4191B}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Validate\UI_Menu_Validate_05		132832
+	323712651	UI_Menu_Validate_01	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\01\{01BBA4CA-926B-D828-4425-08474B4FD18B}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Validate\UI_Menu_Validate_01		132832
+	342373371	UI_Menu_Pause_08	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\EE\{EE382171-FFB6-7066-455A-77D544F3CBF0}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_08		57848
+	384632935	UI_Menu_Pause_04	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\29\{2976E92F-CFBA-589C-270E-CB939AAF6059}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_04		39012
+	446724676	UI_Menu_Generic_Hover_04	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\4D\{4D1931D6-31CB-A4A9-48D5-C066E871E1C9}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Hover\UI_Menu_Generic_Hover_04		132832
+	475502227	UI_Menu_Pause_05	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\03\{038E7767-E176-4170-1921-08C8F91C1F2E}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_05		62628
+	492337443	UI_Menu_Pause_02	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\FA\{FABF2703-F3C2-BDDF-4128-6AF6F706EEA5}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_02		71760
+	534010093	UI_Menu_Generic_Hover_01	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\83\{83D75951-0388-3DC9-28A8-FE040C83E5BB}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Hover\UI_Menu_Generic_Hover_01		132832
+	557536748	UI_Menu_Pause_03	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\1E\{1E453008-F2E7-C7C7-CFE6-7DBAF42ED2C1}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_03		52304
+	561831917	UI_Menu_Generic_Hover_03	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\A6\{A6439E88-9AE3-D915-586F-907E021C0A45}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Hover\UI_Menu_Generic_Hover_03		132832
+	603926933	UI_Menu_Validate_07	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\88\{88CC4F0F-6E3F-A12E-A0C4-F1A5DF109CA0}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Validate\UI_Menu_Validate_07		132832
+	642437570	UI_Menu_Validate_06	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\EC\{EC61FC4D-3CB4-3A0C-D8D2-57C1E74BB3B6}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Validate\UI_Menu_Validate_06		132832
+	689164492	UI_Menu_Validate_02	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\2F\{2FBF2999-B5F1-0686-23B7-3AD8176C85D4}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Validate\UI_Menu_Validate_02		132832
+	728794781	UI_Menu_Generic_Slider_01	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\73\{73D76FD1-9284-05CB-3D61-CA27A24F96BF}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Generic_Slider_01		1115756
+	793027459	UI_Menu_Start_Validated_03	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\7E\{7E45D1AF-04AB-D4AE-894A-092397F08425}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Start_Validate\UI_Menu_Start_Validated_03		34996
+	850719966	UI_Menu_Pause_09	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\DD\{DDF31B5B-6962-5F07-6FD4-7A25025DBFB8}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_09		69580
+	872516974	UI_Menu_Pause_01	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\5A\{5AE3DA56-4CF3-77CE-B25D-9E3E91627F8E}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_01		36996
+	984537611	UI_Menu_Validate_04	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\2D\{2D4408E1-96DD-2DAB-C31F-8896577D9523}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Validate\UI_Menu_Validate_04		132832
+	1031155054	UI_Menu_Pause_11	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\68\{68B1492C-A0CB-FD98-B340-CDE6B3983565}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Pause\UI_Menu_Pause_11		47020
+	1060156524	UI_Menu_Start_Validated_02	Y:\Documents\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit\RitaVeigaSD-Ubisoft-Develop---3D-Game-Kit_WwiseProject\.cache\65\{658FEA96-6D28-7884-8453-0844D4CA357A}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Start_Validate\UI_Menu_Start_Validated_02		26596
+

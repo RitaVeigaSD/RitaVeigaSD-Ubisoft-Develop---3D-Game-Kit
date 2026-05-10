@@ -1,6 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E5A45280-ED62-444D-BB65-07BD0702CA45}" SchemaVersion="123">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{E5A45280-ED62-444D-BB65-07BD0702CA45}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E5A45280-ED62-444D-BB65-07BD0702CA45}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Character" ID="{7B625F09-365C-4EBF-A715-1A3CF9A123E4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_CHR_MC_Ft__Run_Stone" ID="{247B95F4-7C7D-40E0-8044-683B764F9E51}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_MC_Damage" ID="{5A4214E6-0D9E-43D9-A7A9-972FF06F0926}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_WEA_PickUp" ID="{6645D4A5-2EF9-43D9-BBF7-F01D889C9D25}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_Door_Sliding_01" ID="{6C08E406-4449-441C-9E51-0A2677C89CBB}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chr_Land" ID="{B2D20B7A-6BCB-448B-8A40-F88D35F66D43}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WEA_Staff_Hit_Leaves" ID="{A3651A10-9C5E-4524-ADC1-A8A14ACF6963}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_MC_Ft_Land_Grass" ID="{EBEDD571-D9F6-45BF-B93C-BB47E9665C96}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_MC_Death" ID="{A3BA986B-0F1B-47BF-8C73-315CCCF554AC}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_WEA_Pedestal_LP" ID="{EBC76146-1292-49CC-A5C8-4CAB61B78C40}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WEA_Staff_Hit_Stone" ID="{0545042C-AEE5-4A10-812E-D2D4E354501F}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WEA_Staff_Woosh" ID="{501CF2E4-90E8-4A1A-8280-90B6DA6804C5}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_GPE_WEA_Pedestal_LP" ID="{34591D58-038D-4A2D-A973-33FCF8629237}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pressure_pad_test" ID="{F6934D93-A7FD-4B17-994C-83AABAD295C1}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{1F2E6233-A338-4B77-8420-4CBCC5018B49}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_MC_Ft_Jump_Generic" ID="{B0219147-8AD5-4CFC-8F47-5E7524E00417}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Character" ID="{32498BC0-584D-4D59-BD3F-2A5553EB0015}" WorkUnitID="{32498BC0-584D-4D59-BD3F-2A5553EB0015}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_MC_Ft_Roll_Grass" ID="{4FEC9B4F-FF61-4DD0-834D-1BD35C75F2B7}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_AMB" ID="{DE81D682-E385-411C-A1F0-4846D7448EEA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_AMB_Lvl1_Stream" ID="{6CB28461-4D35-4286-B300-90C68A65EA63}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_LEVEL1" ID="{BE1D2DDE-03AD-42BE-B224-540154C53DC6}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMBIENCES" ID="{475FAE43-DBC3-44F4-B423-574A8758979E}" WorkUnitID="{475FAE43-DBC3-44F4-B423-574A8758979E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Lvl1_Stream" ID="{BCF69528-AAE5-47D2-8361-7663DB3BBE41}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Lvl1_Layer1" ID="{803B3D35-4851-4F70-8559-F4B6002D6DD9}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="CHR_NPC_Chomper" ID="{D12A2938-2D51-40F0-A8C2-C7CFFDE1F2F8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_CHR_NPC_Chomper_Attack" ID="{ABA9AEC6-7235-4013-BCD8-C91E27F22D0A}" WorkUnitID="{03F65287-9693-4FE0-B85E-7D81FB8E5B4E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Chomper_Ft_Dirt" ID="{CD1BE648-10AF-436E-9C14-8C9E41A0EC33}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Chomper_Spotted" ID="{BD73E51D-7687-43A8-BD03-4891BD4AB923}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_CHR_NPC_Chomper_Spotted" ID="{B1E7542F-D525-4492-83C6-40A87DD201AD}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WEA_Staff_Hit_Chomper" ID="{3967AAD4-3D3B-4536-8901-21B292FA8225}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Chomper_Death" ID="{9E8616D9-407E-46D2-A9F8-AC412579CFB6}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Chomper_Idle" ID="{AAEF0081-3BF7-4991-918A-F36FFCA6E68F}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_CHR_NPC_Chomper_Idle" ID="{1BE732CD-434F-4BC7-9710-2EAC4E90BC50}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GPE" ID="{4647F867-9359-4AD8-A93F-CD85A669010C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_GPE_Door_Sliding_01" ID="{7D6023DF-743E-41DD-AF3C-8E120FACEFD6}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_GPE_Chest_Lp" ID="{A930304B-470F-4232-89C2-1E3ECC1EE5FE}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_WEA_PickUp" ID="{6645D4A5-2EF9-43D9-BBF7-F01D889C9D25}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_Door_Sliding_01" ID="{6C08E406-4449-441C-9E51-0A2677C89CBB}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_Chest_Open" ID="{DF5A8B59-E905-44A0-8299-9363FDD2135B}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_Crystal_Activated" ID="{E935C037-D3D3-4682-B14E-BDD9A4D516E4}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_Chest_Lp" ID="{5F2D53C0-16C1-4867-8111-0A8CAFFAB412}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GPE_WEA_Pedestal_LP" ID="{EBC76146-1292-49CC-A5C8-4CAB61B78C40}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WEA_Staff_Hit_Stone" ID="{0545042C-AEE5-4A10-812E-D2D4E354501F}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_GPE_WEA_Pedestal_LP" ID="{34591D58-038D-4A2D-A973-33FCF8629237}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_RFX_WLD_Fish" ID="{339F48BB-E642-4CF3-973B-B8FB999887F6}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GRENADIER" ID="{A1228D72-231D-48D3-9072-CC65190167CA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_CHR_NPC_Golem_LR_Attack_01" ID="{4C8DD1DA-787D-419B-8E12-67966FA61F37}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Golem_Death" ID="{B175894B-39F5-4217-8AE2-FCD6A6A8D1E7}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Golem_Ft_Stone" ID="{7A66A155-2888-43C0-9EC9-46459E3C756E}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Golem_melee_Attack_01" ID="{74E41CDA-8280-45DF-9FEA-C6207516FE75}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Gole_RangeAttack2" ID="{622BC135-7438-4825-A1EC-B42ACD62F518}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CHR_NPC_Golem_Hit" ID="{D947E32F-EA11-4E25-9EE7-54464B933568}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{6C810916-C7F0-489C-8FA4-693FAAF6645F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_UI_Menu_Start_Validate" ID="{4EE16697-7DBA-4118-89CC-D092DEB25C7F}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Hover" ID="{D509C16A-2D80-42DB-A12D-6EED96DBAB59}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Generic_Slider_01" ID="{2239A723-839F-489E-97B8-C8EB369C98C3}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Validate" ID="{D02A741F-8EDE-4AB7-8488-563315504F45}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Set_Game_Parameter_SliderPitch" ID="{5AA305DA-3477-4E19-8C0B-C80A36819F87}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Pause" ID="{7BD694E2-81E7-4EA6-81EC-7FAF3FB5E7D8}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_UI_Menu_Generic_Slider_01" ID="{C5F537C5-B737-4F83-9491-6C969E2E9B65}" WorkUnitID="{C49440AC-0052-4EA9-99BB-94A149A2157A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

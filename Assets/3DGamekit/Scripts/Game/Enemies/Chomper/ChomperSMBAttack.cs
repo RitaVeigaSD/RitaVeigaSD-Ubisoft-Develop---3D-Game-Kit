@@ -6,6 +6,7 @@ namespace Gamekit3D
 {
     public class ChomperSMBAttack : SceneLinkedSMB<ChomperBehavior>
     {
+        public RandomAudioPlayer attackAudio;
         protected Vector3 m_AttackPosition;
 
         public override void OnSLStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -29,10 +30,17 @@ namespace Gamekit3D
         {
             base.OnSLStateExit(animator, stateInfo, layerIndex);
 
-            if (m_MonoBehaviour.attackAudio != null)
+            if (m_MonoBehaviour.attackAudio != null &&
+                m_MonoBehaviour.attackAudio.audioSource != null)
+            {
                 m_MonoBehaviour.attackAudio.audioSource.Stop();
+            }
 
             m_MonoBehaviour.controller.SetFollowNavmeshAgent(true);
         }
     }
 }
+// public override void OnSLStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+// {
+//     base.OnSLStateExit(animator, stateInfo, layerIndex);
+// }
